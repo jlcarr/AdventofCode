@@ -5,11 +5,12 @@ Solved by brute force
 Don't see how speedups count be made except via paralellism
 """
 import time
+import sys
 
 import re
 
-def solution():
-	with open('input.txt','r') as file:
+def solution(input_file):
+	with open(input_file,'r') as file:
 		entries = file.read()
 
 	entries = entries.splitlines()
@@ -19,8 +20,9 @@ def solution():
 	return len(valid)
 
 if __name__ == "__main__":
+	input_file = sys.argv[1] if len(sys.argv)>1 else 'input.txt'
 	start = time.time()
-	answer = solution()
+	answer = solution(input_file)
 	solution_time = time.time() - start
 	print(f"- **Answer**: {answer}  ")
 	print(f"- **Timing**: {solution_time}  ")
