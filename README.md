@@ -36,3 +36,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 686  
 - **Timing**: 0.005084991455078125  
 
+### Day 3: Toboggan Trajectory
+#### Part 1
+- **Answer**: 173  
+- **Timing**: 0.000782012939453125  
+#### Part 2
+- **Answer**: 4385176320  
+- **Timing**: 0.0015599727630615234  
+
