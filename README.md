@@ -44,3 +44,10 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 4385176320  
 - **Timing**: 0.0015599727630615234  
 
+### Day 4: Passport Processing
+#### Part 1
+- **Answer**: 247  
+- **Timing**: 0.0006909370422363281  
+#### Part 2
+- **Answer**: 145  
+- **Timing**: 0.008143186569213867  
