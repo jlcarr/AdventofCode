@@ -52,10 +52,18 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 145  
 - **Timing**: 0.008143186569213867  
 
-### Day : Passport Processing
+### Day 5: Passport Processing
 #### Part 1
 - **Answer**: 848  
 - **Timing**: 0.0045549869537353516  
 #### Part 2
 - **Answer**: 682  
 - **Timing**: 0.005724906921386719  
+
+### Day 6: Custom Customs
+#### Part 1
+- **Answer**: 6335  
+- **Timing**: 0.001828908920288086  
+#### Part 2
+- **Answer**: 3392  
+- **Timing**: 0.003625154495239258  
