@@ -51,3 +51,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 145  
 - **Timing**: 0.008143186569213867  
+
+### Day : Passport Processing
+#### Part 1
+- **Answer**: 848  
+- **Timing**: 0.0045549869537353516  
+#### Part 2
+- **Answer**: 682  
+- **Timing**: 0.005724906921386719  
