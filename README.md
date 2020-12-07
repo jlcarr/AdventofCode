@@ -67,3 +67,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 3392  
 - **Timing**: 0.003625154495239258  
+
+### Day 7: Handy Haversacks
+#### Part 1
+- **Answer**: 296  
+- **Timing**: 0.1304619312286377  
+#### Part 2
+- **Answer**: 9339  
+- **Timing**: 0.00913095474243164  
