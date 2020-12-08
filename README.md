@@ -75,3 +75,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 9339  
 - **Timing**: 0.00913095474243164  
+
+### Day 8: Handheld Halting
+#### Part 1
+- **Answer**: 1134  
+- **Timing**: 0.0004050731658935547  
+#### Part 2
+- **Answer**: 1205  
+- **Timing**: 0.04296088218688965  
