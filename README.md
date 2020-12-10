@@ -91,3 +91,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 76096372  
 - **Timing**: 0.08516788482666016  
+
+### Day 10: Adapter Array
+#### Part 1
+- **Answer**: 2048  
+- **Timing**: 0.0002040863037109375  
+#### Part 2
+- **Answer**: 1322306994176  
+- **Timing**: 0.0011546611785888672  
