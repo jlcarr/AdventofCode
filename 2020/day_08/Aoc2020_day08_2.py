@@ -1,8 +1,17 @@
 """
-Solution to Advent of Code 2020 day 4 part 2
+Solution to Advent of Code 2020 day 8 part 2
 
-Solved by brute force
-Don't see how speedups count be made except via paralellism
+Solved by brute force, quadratic time
+Try all different steps to swap
+Linear time is possible by constructing the graph of instruction (will be disconnected)
+1 path will go from the start into a loop
+Either
+a) Another will be a tree where children direct to parents (could be linear) with the root jmp-ing to the end
+b) One of the nop instructions in the start path can be swapped to a jmp that will terminate
+linearly search through the first path for a nop that when swapped to a jmp will either
+jump to the ending-tree (scenario a)
+or go straight to the end (scenario b)
+also look for a jmp whose instruction below is in the ending-tree (swapping to a nop will be scenario a)
 """
 import time
 import sys

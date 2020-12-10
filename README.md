@@ -83,3 +83,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 1205  
 - **Timing**: 0.04296088218688965  
+
+### Day 9: Encoding Error
+#### Part 1
+- **Answer**: 556543474  
+- **Timing**: 0.0531001091003418  
+#### Part 2
+- **Answer**: 76096372  
+- **Timing**: 0.08516788482666016  

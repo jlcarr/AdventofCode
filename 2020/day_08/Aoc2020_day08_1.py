@@ -1,8 +1,8 @@
 """
-Solution to Advent of Code 2020 day 4 part 2
+Solution to Advent of Code 2020 day 8 part 1
 
-Solved by brute force
-Don't see how speedups count be made except via paralellism
+Solved by brute force, linear, no speedups possible
+keeping track of previous instructions with a set
 """
 import time
 import sys
