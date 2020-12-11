@@ -99,3 +99,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 1322306994176  
 - **Timing**: 0.0011546611785888672  
+
+### Day 11: Seating System
+#### Part 1
+- **Answer**: 2222  
+- **Timing**: 3.128587007522583  
+#### Part 2
+- **Answer**: 2032  
+- **Timing**: 9.079081058502197  
