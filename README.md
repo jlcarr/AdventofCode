@@ -115,3 +115,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 58606  
 - **Timing**: 0.003119945526123047  
+
+### Day 13: Shuttle Search
+#### Part 1
+- **Answer**: 4722  
+- **Timing**: 0.00025200843811035156  
+#### Part 2
+- **Answer**: 825305207525452  
+- **Timing**: 0.0005371570587158203 
