@@ -107,3 +107,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 2032  
 - **Timing**: 9.079081058502197  
+
+### Day 12: Seating System
+#### Part 1
+- **Answer**: 1631  
+- **Timing**: 0.0032689571380615234  
+#### Part 2
+- **Answer**: 58606  
+- **Timing**: 0.003119945526123047  
