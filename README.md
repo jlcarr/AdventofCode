@@ -123,3 +123,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 825305207525452  
 - **Timing**: 0.0005371570587158203 
+
+### Day 14: Docking Data
+#### Part 1
+- **Answer**: 10035335144067  
+- **Timing**: 0.006556987762451172  
+#### Part 2
+- **Answer**: 3817372618036  
+- **Timing**: 0.9705009460449219 
