@@ -1,5 +1,5 @@
 """
-Solution to Advent of Code 2020 day 12 part 2
+Solution to Advent of Code 2020 day 13 part 2
 
 Chinese remainder theorem
 """

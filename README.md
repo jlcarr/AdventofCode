@@ -131,3 +131,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 #### Part 2
 - **Answer**: 3817372618036  
 - **Timing**: 0.9705009460449219 
+
+### Day 15: Rambunctious Recitation
+#### Part 1
+- **Answer**: 421  
+- **Timing**: 0.0009579658508300781  
+#### Part 2
+- **Answer**: 436  
+- **Timing**: 20.582706928253174  
