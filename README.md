@@ -82,9 +82,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 
 ### Day 7: Handy Haversacks
 #### Part 1
+- **Approach**: Set union until fixed point. Regex parsing.
 - **Answer**: 296
 - **Timing**: 0.1304619312286377
 #### Part 2
+- **Approach**: Dynamic programming by recording sub-solutions. Build graph.
 - **Answer**: 9339
 - **Timing**: 0.00913095474243164
 
@@ -146,8 +148,18 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 
 ### Day 15: Rambunctious Recitation
 #### Part 1
-- **Answer**: 421  
-- **Timing**: 0.0009579658508300781  
+- **Answer**: 421
+- **Timing**: 0.0009579658508300781
 #### Part 2
-- **Answer**: 436  
-- **Timing**: 20.582706928253174  
+- **Answer**: 436
+- **Timing**: 20.582706928253174
+
+### Day 16: Ticket Translation
+#### Part 1
+- **Approach**: Regex parsing. Check all bounds.
+- **Answer**: 25916
+- **Timing**: 0.10727190971374512
+#### Part 2
+- **Approach**: Keep sets of possibilities for each column. Cut down by bounds checks. Cut down final by filtering out fields of unique possibility remaining colums until fixed point.
+- **Answer**: 2564529489989
+- **Timing**: 0.20316219329833984
