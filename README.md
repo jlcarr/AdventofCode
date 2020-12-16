@@ -22,27 +22,31 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
-- **Answer**: 744475  
-- **Timing**: 0.0012722015380859375  
+- **Approach**: Brute force: nested for-loops with indexing to avoid double-count. (Time-memory trade-off possible by using dicts)
+- **Answer**: 744475
+- **Timing**: 0.0012722015380859375
 #### Part 2
-- **Answer**: 70276940  
-- **Timing**: 0.10711288452148438  
+- **Approach**: Brute force: nested for-loops with indexing to double-count.
+- **Answer**: 70276940
+- **Timing**: 0.10711288452148438
 
 ### Day 2: Password Philosophy
 #### Part 1
-- **Answer**: 477  
-- **Timing**: 0.0092010498046875 
+- **Approach**: Brute force: using regex to parse and the string character count function.
+- **Answer**: 477
+- **Timing**: 0.0092010498046875
 #### Part 2
-- **Answer**: 686  
-- **Timing**: 0.005084991455078125  
+- **Approach**: Brute force: using regex to parse and string indexing.
+- **Answer**: 686
+- **Timing**: 0.005084991455078125
 
 ### Day 3: Toboggan Trajectory
 #### Part 1
-- **Answer**: 173  
-- **Timing**: 0.000782012939453125  
+- **Answer**: 173
+- **Timing**: 0.000782012939453125
 #### Part 2
-- **Answer**: 4385176320  
-- **Timing**: 0.0015599727630615234  
+- **Answer**: 4385176320
+- **Timing**: 0.0015599727630615234
 
 ### Day 4: Passport Processing
 #### Part 1
