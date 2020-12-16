@@ -42,43 +42,51 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 
 ### Day 3: Toboggan Trajectory
 #### Part 1
+- **Approach**: Brute force: A simple count with some 2-D indexing and modular arithmetic.
 - **Answer**: 173
 - **Timing**: 0.000782012939453125
 #### Part 2
+- **Approach**: Brute force: A simple count with some 2-D indexing and modular arithmetic.
 - **Answer**: 4385176320
 - **Timing**: 0.0015599727630615234
 
 ### Day 4: Passport Processing
 #### Part 1
-- **Answer**: 247  
-- **Timing**: 0.0006909370422363281  
+- **Approach**: Brute force: string contains all.
+- **Answer**: 247
+- **Timing**: 0.0006909370422363281
 #### Part 2
-- **Answer**: 145  
-- **Timing**: 0.008143186569213867  
+- **Approach**: Brute force: a lot of regex parsing and conditions checking.
+- **Answer**: 145
+- **Timing**: 0.008143186569213867
 
 ### Day 5: Passport Processing
 #### Part 1
-- **Answer**: 848  
-- **Timing**: 0.0045549869537353516  
+- **Approach**: Binary encoding.
+- **Answer**: 848
+- **Timing**: 0.0045549869537353516
 #### Part 2
-- **Answer**: 682  
-- **Timing**: 0.005724906921386719  
+- **Approach**: Binary encoding then set difference (using range).
+- **Answer**: 682
+- **Timing**: 0.005724906921386719
 
 ### Day 6: Custom Customs
 #### Part 1
-- **Answer**: 6335  
-- **Timing**: 0.001828908920288086  
+- **Approach**: Set sizes. (Strings turned to sets)
+- **Answer**: 6335
+- **Timing**: 0.001828908920288086
 #### Part 2
-- **Answer**: 3392  
-- **Timing**: 0.003625154495239258  
+- **Approach**: Set sizes. Set intersection. (String turned to sets)
+- **Answer**: 3392
+- **Timing**: 0.003625154495239258
 
 ### Day 7: Handy Haversacks
 #### Part 1
-- **Answer**: 296  
-- **Timing**: 0.1304619312286377  
+- **Answer**: 296
+- **Timing**: 0.1304619312286377
 #### Part 2
-- **Answer**: 9339  
-- **Timing**: 0.00913095474243164  
+- **Answer**: 9339
+- **Timing**: 0.00913095474243164
 
 ### Day 8: Handheld Halting
 #### Part 1

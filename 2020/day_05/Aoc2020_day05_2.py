@@ -2,7 +2,6 @@
 Solution to Advent of Code 2020 day 5 part 2
 
 Converting to binary. Then find the seat with set difference (one generated with min-max range)
-Don't see how speedups count be made except via paralellism
 """
 import time
 import sys
@@ -44,5 +43,5 @@ if __name__ == "__main__":
 	start = time.time()
 	answer = solution(input_file)
 	solution_time = time.time() - start
-	print(f"- **Answer**: {answer}  ")
-	print(f"- **Timing**: {solution_time}  ")
+	print(f"- **Answer**: {answer}")
+	print(f"- **Timing**: {solution_time}")
