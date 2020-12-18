@@ -163,3 +163,13 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Keep sets of possibilities for each column. Cut down by bounds checks. Cut down final by filtering out fields of unique possibility remaining colums until fixed point.
 - **Answer**: 2564529489989
 - **Timing**: 0.20316219329833984
+
+### Day 17: Conway Cubes
+#### Part 1
+- **Approach**: Multi-dimensional Conway's Game of Life. Used numpy's padding and convolution.
+- **Answer**: 348
+- **Timing**: 0.03930306434631348
+#### Part 2
+- **Approach**: Same answer as above, just updated the dimension.
+- **Answer**: 2236
+- **Timing**: 0.4158620834350586

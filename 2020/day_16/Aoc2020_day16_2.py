@@ -1,5 +1,5 @@
 """
-Solution to Advent of Code 2020 day 15 part 2
+Solution to Advent of Code 2020 day 16 part 2
 
 Keeps a list of possibilities and cut it down by failed conditions
 """
@@ -71,5 +71,5 @@ if __name__ == "__main__":
 	start = time.time()
 	answer = solution(input_file)
 	solution_time = time.time() - start
-	print(f"- **Answer**: {answer}  ")
-	print(f"- **Timing**: {solution_time}  ")
+	print(f"- **Answer**: {answer}")
+	print(f"- **Timing**: {solution_time}")

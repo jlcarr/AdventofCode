@@ -1,5 +1,5 @@
 """
-Solution to Advent of Code 2020 day 15 part 2
+Solution to Advent of Code 2020 day 16 part 1
 
 Brute force
 """
