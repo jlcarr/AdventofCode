@@ -41,5 +41,5 @@ if __name__ == "__main__":
 	start = time.time()
 	answer = solution(input_file,s=input_2)
 	solution_time = time.time() - start
-	print(f"- **Answer**: {answer}  ")
-	print(f"- **Timing**: {solution_time}  ")
+	print(f"- **Answer**: {answer}")
+	print(f"- **Timing**: {solution_time}")

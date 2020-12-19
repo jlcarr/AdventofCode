@@ -92,9 +92,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 
 ### Day 8: Handheld Halting
 #### Part 1
+- **Approach**:
 - **Answer**: 1134  
 - **Timing**: 0.0004050731658935547  
 #### Part 2
+- **Approach**: 
 - **Answer**: 1205  
 - **Timing**: 0.04296088218688965  
 
@@ -108,49 +110,61 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 
 ### Day 10: Adapter Array
 #### Part 1
-- **Answer**: 2048  
-- **Timing**: 0.0002040863037109375  
+- **Approach**: Sort the array, then 1st difference, then count values.
+- **Answer**: 2048
+- **Timing**: 0.0002040863037109375
 #### Part 2
-- **Answer**: 1322306994176  
-- **Timing**: 0.0011546611785888672  
+- **Approach**: Sort the array, then use dynamic programming to solve: recursive solution with dictionary of memorized subsolutions.
+- **Answer**: 1322306994176
+- **Timing**: 0.0011546611785888672
 
 ### Day 11: Seating System
 #### Part 1
-- **Answer**: 2222  
-- **Timing**: 3.128587007522583  
+- **Approach**: Brute force iterations, checking all neighbors, and checking for changes (fixed point). (Better solution would have been numpy convolutions, boolean operations, and sums)
+- **Answer**: 2222
+- **Timing**: 3.128587007522583
 #### Part 2
-- **Answer**: 2032  
-- **Timing**: 9.079081058502197  
+- **Approach**: Similar to above, this time iterated over directions, and iterated up distance. (For this one the indexing would be better than convolution)
+- **Answer**: 2032
+- **Timing**: 9.079081058502197
 
-### Day 12: Seating System
+### Day 12: Rain Risk
 #### Part 1
-- **Answer**: 1631  
-- **Timing**: 0.0032689571380615234  
+- **Approach**: Brute force. Used trig functions for the angle of rotation.
+- **Answer**: 1631
+- **Timing**: 0.0032689571380615234
 #### Part 2
-- **Answer**: 58606  
-- **Timing**: 0.003119945526123047  
+- **Approach**: Brute force, with rotation matrix for rotations.
+- **Answer**: 58606
+- **Timing**: 0.003119945526123047
 
 ### Day 13: Shuttle Search
 #### Part 1
-- **Answer**: 4722  
-- **Timing**: 0.00025200843811035156  
+- **Approach**: Modular arithmetic.
+- **Answer**: 4722
+- **Timing**: 0.00025200843811035156
 #### Part 2
-- **Answer**: 825305207525452  
-- **Timing**: 0.0005371570587158203 
+- **Approach**: Chinese Remainder Theorem.
+- **Answer**: 825305207525452
+- **Timing**: 0.0005371570587158203
 
 ### Day 14: Docking Data
 #### Part 1
-- **Answer**: 10035335144067  
-- **Timing**: 0.006556987762451172  
+- **Approach**: Bitstring conversion and manipulation.
+- **Answer**: 10035335144067
+- **Timing**: 0.006556987762451172
 #### Part 2
-- **Answer**: 3817372618036  
-- **Timing**: 0.9705009460449219 
+- **Approach**: Similar to above with binary counting.
+- **Answer**: 3817372618036
+- **Timing**: 0.9705009460449219
 
 ### Day 15: Rambunctious Recitation
 #### Part 1
+- **Approach**: Brute force with a dict.
 - **Answer**: 421
 - **Timing**: 0.0009579658508300781
 #### Part 2
+- **Approach**: Exact same.
 - **Answer**: 436
 - **Timing**: 20.582706928253174
 
@@ -183,3 +197,13 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Same answer as above, just added operator precedence.
 - **Answer**: 112899558798666
 - **Timing**: 0.018545866012573242
+
+### Day 19: Monster Messages
+#### Part 1
+- **Approach**: Parse rules into regex, then use to verify matches.
+- **Answer**: 151
+- **Timing**: 0.03327608108520508
+#### Part 2
+- **Approach**: Use same answer as above, but when self-loop is found use finite-depth recursion. (Solves the problem but isn't general)
+- **Answer**: 386
+- **Timing**: 1.9034090042114258
