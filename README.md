@@ -173,3 +173,13 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Same answer as above, just updated the dimension.
 - **Answer**: 2236
 - **Timing**: 0.4158620834350586
+
+### Day 18: Operation Order
+#### Part 1
+- **Approach**: Shunting-Yard algorithm to convert to RPN, and compute. Some tokenizing too.
+- **Answer**: 3885386961962
+- **Timing**: 0.018116235733032227
+#### Part 2
+- **Approach**: Same answer as above, just added operator precedence.
+- **Answer**: 112899558798666
+- **Timing**: 0.018545866012573242

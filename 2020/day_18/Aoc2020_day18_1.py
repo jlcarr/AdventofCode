@@ -1,7 +1,7 @@
 """
 Solution to Advent of Code 2020 day 18 part 2
 
-Same as day 1, but with operator precendence added to the algorithm
+Shunting yard algorithm for RPN
 """
 import time
 import sys
@@ -27,12 +27,8 @@ def solution(input_file):
 				continue
 			elif c.isdigit():
 				num = num * 10 + int(c)
-			elif c == '*':
+			elif c == '*' or c == '+':
 				while op_stack and op_stack[-1] != '(':
-					val_stack.append(op_stack.pop())
-				op_stack.append(c)
-			elif c == '+':
-				while op_stack and op_stack[-1] == '+':
 					val_stack.append(op_stack.pop())
 				op_stack.append(c)
 			elif c == '(':
