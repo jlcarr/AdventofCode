@@ -207,3 +207,13 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Use same answer as above, but when self-loop is found use finite-depth recursion. (Solves the problem but isn't general)
 - **Answer**: 386
 - **Timing**: 1.9034090042114258
+
+### Day 21: Allergen Assessment
+#### Part 1
+- **Approach**: Set logic: set intersection helps obtain possibilities for each alergen, set union gets all ingredients, then set difference gives all allergen-free.
+- **Answer**: 1945
+- **Timing**: 0.0016810894012451172
+#### Part 2
+- **Approach**: Cut out alergy-free set of all possibilities. Then use similar approach to day 16-2.
+- **Answer**: pgnpx,srmsh,ksdgk,dskjpq,nvbrx,khqsk,zbkbgp,xzb
+- **Timing**: 0.0012407302856445312
