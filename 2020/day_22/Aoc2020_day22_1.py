@@ -1,7 +1,7 @@
 """
-Solution to Advent of Code 2020 day 22 part 2
+Solution to Advent of Code 2020 day 22 part 1
 
-
+Simple implementation of the rules with list functions.
 """
 import time
 import sys

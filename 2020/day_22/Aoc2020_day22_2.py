@@ -1,7 +1,7 @@
 """
 Solution to Advent of Code 2020 day 22 part 2
 
-
+Recursion with list-slicing for copying.
 """
 import time
 import sys

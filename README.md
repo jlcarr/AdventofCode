@@ -227,3 +227,13 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Recursion with list-slicing for copying.
 - **Answer**: 34771
 - **Timing**: 5.484330177307129
+
+### Day 23: Crab Cups
+#### Part 1
+- **Approach**: Modular arithmetic.
+- **Answer**: 82635947
+- **Timing**: 0.0004520416259765625
+#### Part 2
+- **Approach**: Implemented a linked list, and used a dict.
+- **Answer**: 157047826689
+- **Timing**: 44.635998010635376
