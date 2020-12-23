@@ -217,3 +217,13 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Cut out alergy-free set of all possibilities. Then use similar approach to day 16-2.
 - **Answer**: pgnpx,srmsh,ksdgk,dskjpq,nvbrx,khqsk,zbkbgp,xzb
 - **Timing**: 0.0012407302856445312
+
+### Day 22: Crab Combat
+#### Part 1
+- **Approach**: Simple implementation of the rules with list functions.
+- **Answer**: 35818
+- **Timing**: 0.0005939006805419922
+#### Part 2
+- **Approach**: Recursion with list-slicing for copying.
+- **Answer**: 34771
+- **Timing**: 5.484330177307129
