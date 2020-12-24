@@ -237,3 +237,13 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Implemented a linked list, and used a dict.
 - **Answer**: 157047826689
 - **Timing**: 44.635998010635376
+
+### Day 24: Lobby Layout
+#### Part 1
+- **Approach**: Hexagonal grid system, and sets.
+- **Answer**: 394
+- **Timing**: 0.007922172546386719
+#### Part 2
+- **Approach**: Hexagonal grid system, with some set logic (difference and union).
+- **Answer**: 4036
+- **Timing**: 3.2977421283721924
