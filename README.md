@@ -247,3 +247,11 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Hexagonal grid system, with some set logic (difference and union).
 - **Answer**: 4036
 - **Timing**: 3.2977421283721924
+
+### Day 25: Combo Breaker
+#### Part 1
+- **Approach**: Brute force a Diffie-Helman key.
+- **Answer**: 297257
+- **Timing**: 6.192662000656128
+#### Part 2
+- **Approach**: Click a link.
