@@ -208,6 +208,14 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 386
 - **Timing**: 1.9034090042114258
 
+### Day 20: Jurassic Jigsaw
+#### Part 1
+- **Approach**: Use edge-matching to construct a graph. The nodes with 2-edges only are corners.
+- **Answer**: 8425574315321
+- **Timing**: 7.094567060470581
+#### Part 2
+- **Approach**: Fix the orientation of one corner. Build up the rest of the puzzle from there. Then search using the convolution trick.
+
 ### Day 21: Allergen Assessment
 #### Part 1
 - **Approach**: Set logic: set intersection helps obtain possibilities for each alergen, set union gets all ingredients, then set difference gives all allergen-free.
