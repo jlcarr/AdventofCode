@@ -19,6 +19,18 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - I'm also adding a series of useful links to topics useful to each problem at the end.
 - On occasion I will consider different approaches to the problem: the one I end of using remains in the ```AoC[year]_day[day]_[part].py```, while the discarded/incomplete solution will be in another file.
 
+## 2021 Solutions
+### Day 1: 
+#### Part 1
+- **Approach**: Simple iteration keeping track of the previous value.
+- **Answer**: 1342
+- **Timing**: 0.0011320114135742188
+
+#### Part 2
+- **Approach**: Simple iteration keeping track of the previous 3 values.
+- **Answer**: 1378
+- **Timing**: 0.0016851425170898438
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
