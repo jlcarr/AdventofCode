@@ -31,6 +31,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1378
 - **Timing**: 0.0016851425170898438
 
+### Day 2: 
+#### Part 1
+- **Approach**: Simple iteration keeping track of the value.
+- **Answer**: 1568138742
+- **Timing**: 0.015768051147460938
+
+#### Part 2
+- **Approach**: Simple iteration keeping track of the values.
+- **Answer**: 1568138742
+- **Timing**: 0.0033369064331054688
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
