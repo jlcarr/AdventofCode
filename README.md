@@ -20,38 +20,45 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - On occasion I will consider different approaches to the problem: the one I end of using remains in the ```AoC[year]_day[day]_[part].py```, while the discarded/incomplete solution will be in another file.
 
 ## 2021 Solutions
-### Day 1: 
+### Day 1: Sonar Sweep 
 #### Part 1
 - **Approach**: Simple iteration keeping track of the previous value.
 - **Answer**: 1342
 - **Timing**: 0.0011320114135742188
-
 #### Part 2
 - **Approach**: Simple iteration keeping track of the previous 3 values.
 - **Answer**: 1378
 - **Timing**: 0.0016851425170898438
 
-### Day 2: 
+### Day 2: Dive!
 #### Part 1
 - **Approach**: Simple iteration keeping track of the value.
 - **Answer**: 1568138742
 - **Timing**: 0.002246856689453125
-
 #### Part 2
 - **Approach**: Simple iteration keeping track of the values.
 - **Answer**: 1568138742
 - **Timing**: 0.0033369064331054688
 
-### Day 3: 
+### Day 3: Binary Diagnostic
 #### Part 1
 - **Approach**: Taking counts and checking if they were the majority.
 - **Answer**: 1540244
 - **Timing**: 0.002835988998413086
-
 #### Part 2
 - **Approach**: Solved using numpy's summation along a chosen axis, plus numpy's masking, plus binary conversion.
 - **Answer**: 4203981
 - **Timing**: 0.008578062057495117
+
+### Day 4: Giant Squid
+#### Part 1
+- **Approach**: Used Numpy. Keep track of masks of called numbers. Use axial summations to check for solutions.
+- **Answer**: 10680
+- **Timing**: 0.06001400947570801
+#### Part 2
+- **Approach**: Same as part 1, just kept track of which puzzles hadn't been solved yet.
+- **Answer**: 31892
+- **Timing**: 0.32416582107543945
 
 ## 2020 Solutions
 ### Day 1: Report Repair
