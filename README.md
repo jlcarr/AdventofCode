@@ -60,6 +60,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 31892
 - **Timing**: 0.32416582107543945
 
+### Day 5: Hydrothermal Venture
+#### Part 1
+- **Approach**: Solved by actually constructing the grid and using numpy's indexing to update it.
+- **Answer**: 6283
+- **Timing**: 0.017503976821899414
+#### Part 2
+- **Approach**: Solved by actually constructing the grid and walking along it.
+- **Answer**: 18864
+- **Timing**: 0.34270477294921875
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
