@@ -70,6 +70,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 18864
 - **Timing**: 0.34270477294921875
 
+### Day 6: Lanternfish
+#### Part 1
+- **Approach**: Solved by simply simulating the fish reproduction.
+- **Answer**: 354564
+- **Timing**: 0.9740469455718994
+#### Part 2
+- **Approach**: Solved using dynamic programming with memoization.
+- **Answer**: 1609058859115
+- **Timing**: 0.004016876220703125
+
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
