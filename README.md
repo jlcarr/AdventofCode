@@ -80,6 +80,15 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1609058859115
 - **Timing**: 0.004016876220703125
 
+### Day 7: 
+#### Part 1
+- **Approach**: Solved using hill climbing starting from the mean.
+- **Answer**: 329389
+- **Timing**: 0.07007932662963867
+#### Part 2
+- **Approach**: Solved using the same approach as the first part, but with the formulat to compute triangular numbers.
+- **Answer**: 86397080
+- **Timing**: 0.0022478103637695312
 
 ## 2020 Solutions
 ### Day 1: Report Repair
