@@ -90,6 +90,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 86397080
 - **Timing**: 0.0022478103637695312
 
+### Day 8: 
+#### Part 1
+- **Approach**: Solved by simply comparing lengths.
+- **Answer**: 479
+- **Timing**: 0.0046727657318115234
+#### Part 2
+- **Approach**: Ended up just using brute force since the 7 segments means 7!=5040 possibilities for each entry.
+- **Answer**: 1041746
+- **Timing**: 10.353924989700317
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
