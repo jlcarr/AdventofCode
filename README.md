@@ -90,7 +90,7 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 86397080
 - **Timing**: 0.0022478103637695312
 
-### Day 8: 
+### Day 8: Seven Segment Search 
 #### Part 1
 - **Approach**: Solved by simply comparing lengths.
 - **Answer**: 479
@@ -99,6 +99,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Ended up just using brute force since the 7 segments means 7!=5040 possibilities for each entry.
 - **Answer**: 1041746
 - **Timing**: 10.353924989700317
+
+### Day 9: Smoke Basin
+#### Part 1
+- **Approach**: Solved by simply iterating over the array and checking neighbors.
+- **Answer**: 633
+- **Timing**: 0.03409886360168457
+#### Part 2
+- **Approach**: Solved using skimage's food function. Mathematical morphology functions are often useful for topograpical data.
+- **Answer**: 1050192
+- **Timing**: 0.14930510520935059
 
 ## 2020 Solutions
 ### Day 1: Report Repair
