@@ -110,7 +110,7 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1050192
 - **Timing**: 0.14930510520935059
 
-### Day 10: 
+### Day 10: Syntax Scoring
 #### Part 1
 - **Approach**: Solved using a stack to store opening brackets.
 - **Answer**: 341823
@@ -119,6 +119,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Same approach as the first part, small tweak.
 - **Answer**: 2801302861
 - **Timing**: 0.003412008285522461
+
+### Day 11: Dumbo Octopus
+#### Part 1
+- **Approach**: Solved using a mask to find new flashes, and convolving to find the effect of the flash. Repeat on each step to get fixed points.
+- **Answer**: 1661
+- **Timing**: 0.691169023513794
+#### Part 2
+- **Approach**: Same as part 1, just letting it run until the synchronize step is found.
+- **Answer**: 334
+- **Timing**: 2.2901859283447266
 
 ## 2020 Solutions
 ### Day 1: Report Repair
