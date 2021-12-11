@@ -110,6 +110,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1050192
 - **Timing**: 0.14930510520935059
 
+### Day 10: 
+#### Part 1
+- **Approach**: Solved using a stack to store opening brackets.
+- **Answer**: 341823
+- **Timing**: 0.002851247787475586
+#### Part 2
+- **Approach**: Same approach as the first part, small tweak.
+- **Answer**: 2801302861
+- **Timing**: 0.003412008285522461
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
