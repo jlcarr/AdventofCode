@@ -140,6 +140,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 155477
 - **Timing**: 23.019680976867676
 
+### Day 13: Transparent Origami
+#### Part 1
+- **Approach**: Reflected all coordinates over the folds and used a set for uniqueness.
+- **Answer**: 708
+- **Timing**: 0.01527714729309082
+#### Part 2
+- **Approach**: Same as day 1, but had to add a function to print the final result.
+- **Answer**: EBLUBRFH
+- **Timing**: 0.044972896575927734
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
