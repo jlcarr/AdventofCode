@@ -130,6 +130,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 334
 - **Timing**: 2.2901859283447266
 
+### Day 12: Passage Pathing
+#### Part 1
+- **Approach**: Solved using depth-first search.
+- **Answer**: 5920
+- **Timing**: 0.7616209983825684
+#### Part 2
+- **Approach**: Solved using depth-first search, keeping the ability to revisit nodes as a boolean flag.
+- **Answer**: 155477
+- **Timing**: 23.019680976867676
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
