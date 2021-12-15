@@ -160,6 +160,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 2984946368465
 - **Timing**: 0.004538297653198242
 
+### Day 15: Chiton
+#### Part 1
+- **Approach**: Used NetworkX to perform Dijkstra. Graph was a digraph where edge weight was the cost of entering a node.
+- **Answer**: 811
+- **Timing**: 0.39791393280029297
+#### Part 2
+- **Approach**: Same as part 1. Used numpy's tile and indexing to do the size-up of the cave, with some modular arithmetic.
+- **Answer**: 3012
+- **Timing**: 25.534971952438354
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
