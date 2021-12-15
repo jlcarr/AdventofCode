@@ -150,6 +150,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: EBLUBRFH
 - **Timing**: 0.044972896575927734
 
+### Day 14: Extended Polymerization
+#### Part 1
+- **Approach**: Direct simulation by looping over the string and appending to a new string.
+- **Answer**: 2703
+- **Timing**: 0.019144058227539062
+#### Part 2
+- **Approach**: Solved by keeping track of pair frequency counts.
+- **Answer**: 2984946368465
+- **Timing**: 0.004538297653198242
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
