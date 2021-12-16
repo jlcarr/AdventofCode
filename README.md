@@ -170,6 +170,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 3012
 - **Timing**: 25.534971952438354
 
+### Day 16: Packet Decoder
+#### Part 1
+- **Approach**: Basically perform the whole package parsing using lots of binary and hex conversion and string operations.
+- **Answer**: 891
+- **Timing**: 0.002791166305541992
+#### Part 2
+- **Approach**: Same as part one, but added an operator evaluation.
+- **Answer**: 673042777597
+- **Timing**: 0.0028810501098632812
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
