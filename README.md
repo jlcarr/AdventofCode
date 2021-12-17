@@ -180,6 +180,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 673042777597
 - **Timing**: 0.0028810501098632812
 
+### Day 17: Trick Shot
+#### Part 1
+- **Approach**: Brute force searched all reasonable starting values for the max.
+- **Answer**: 5050
+- **Timing**: 11.546349048614502
+#### Part 2
+- **Approach**: Brute forced by searching in a reasonable radius of all starting values that hit the target.
+- **Answer**: 2223
+- **Timing**: 491.1251199245453
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
