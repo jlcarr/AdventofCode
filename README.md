@@ -200,6 +200,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 4819
 - **Timing**: 5.628562927246094
 
+### Day 19: Beacon Scanner
+#### Part 1
+- **Approach**: Construct the rotation matrices by permuting the x and y axes, then cross product to get z. Then iterate over all the remaining scanners, over rotations, and get possible translations by matching pairs of beacons to check if at least 12 match up.
+- **Answer**: 318
+- **Timing**: 510.60430884361267
+#### Part 2
+- **Approach**: Same as part 1, except saved time by recording pairs of fixed scanners already checked. Also saved the translations used as well, since that's the scanner's position. Check all pairs of scanners for max distance.
+- **Answer**: 12166
+- **Timing**: 288.3640456199646
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
