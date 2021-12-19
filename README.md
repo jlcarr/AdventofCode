@@ -190,6 +190,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 2223
 - **Timing**: 491.1251199245453
 
+### Day 18: Snailfish
+#### Part 1
+- **Approach**: Used a string/linked-list based approach, which made getting the first left and right numbers easier.
+- **Answer**: 3816
+- **Timing**: 0.31192922592163086
+#### Part 2
+- **Approach**: Simply brute-force checked all pairs for the max value.
+- **Answer**: 4819
+- **Timing**: 5.628562927246094
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
