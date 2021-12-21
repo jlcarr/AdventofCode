@@ -210,6 +210,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 12166
 - **Timing**: 288.3640456199646
 
+### Day 20: Trench Map
+#### Part 1
+- **Approach**: Used numpy's padding to account for growth, and generic_filter to apply the transform, with the bounday values being fed to the filter and kept track of.
+- **Answer**: 5249
+- **Timing**: 0.6359641551971436
+#### Part 2
+- **Approach**: Same as part 1.
+- **Answer**: 15714
+- **Timing**: 64.92884492874146
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
