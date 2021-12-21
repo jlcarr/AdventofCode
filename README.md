@@ -220,6 +220,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 15714
 - **Timing**: 64.92884492874146
 
+### Day 21: Dirac Dice
+#### Part 1
+- **Approach**: Direct simulation using modular arithmetic and accounting for off-by-one.
+- **Answer**: 1004670
+- **Timing**: 0.001110076904296875
+#### Part 2
+- **Approach**: Dynamic programming with memoization, 5D statespace `(10*10*21*21*2)`. Construct all possible results of a turn and follow their game trees.
+- **Answer**: 492043106122795
+- **Timing**: 1.7679462432861328
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
