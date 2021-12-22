@@ -230,6 +230,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 492043106122795
 - **Timing**: 1.7679462432861328
 
+### Day 22: Reactor Reboot
+#### Part 1
+- **Approach**: Solved using set operations to keep track of all the on-cubes, with xyz nested loops.
+- **Answer**: 658691
+- **Timing**: 1.0631992816925049
+#### Part 2
+- **Approach**: Find intersecting rectangular prisms, keep track of those whose volumes are added, and subtracted. Doesn't work on the second example, but works on the actual input?
+- **Answer**: 1228699515783640
+- **Timing**: 1.9604251384735107
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
