@@ -240,6 +240,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1228699515783640
 - **Timing**: 1.9604251384735107
 
+### Day 23: Amphipod
+#### Part 1
+- **Approach**: Used A* with a bunch of processing to create the graph. States are stored as a tuple of positions, A* heuristic is cost to positions ignoring blocking. Valid moves are only to the hallway and back.
+- **Answer**: 15160
+- **Timing**: 2.1332180500030518
+#### Part 2
+- **Approach**: Same as part 1, except with the extra lines injected and augmented state space with a few small optimizations to avoid unnecessary moves.
+- **Answer**: 46772
+- **Timing**: 2703.6278762817383
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
