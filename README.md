@@ -250,6 +250,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 46772
 - **Timing**: 2703.6278762817383
 
+### Day 24: Arithmetic Logic Unit
+#### Part 1
+- **Approach**: I found that the output wasn't particularly sensitive to input: random flip sets of digits, keeping records of the max found, hoping to break out of local maxima into a global maxima.
+- **Answer**: 99429795993929
+- **Timing**: 334.2366089820862
+#### Part 2
+- **Approach**: Same as part 1, just flipping the signs to get the minima.
+- **Answer**: 18113181571611
+- **Timing**: 330.92746686935425
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
