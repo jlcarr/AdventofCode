@@ -260,6 +260,14 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 18113181571611
 - **Timing**: 330.92746686935425
 
+### Day 25: Sea Cucumber
+#### Part 1
+- **Approach**: Solved using Numpy and Scipy's generic filter.
+- **Answer**: 329
+- **Timing**: 29.969828844070435
+#### Part 2
+- **Approach**: Click a link.
+
 ## 2020 Solutions
 ### Day 1: Report Repair
 #### Part 1
