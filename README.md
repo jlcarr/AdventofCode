@@ -19,6 +19,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - I'm also adding a series of useful links to topics useful to each problem at the end.
 - On occasion I will consider different approaches to the problem: the one I end of using remains in the ```AoC[year]_day[day]_[part].py```, while the discarded/incomplete solution will be in another file.
 
+## 2022 Solutions
+### Day 1: 
+#### Part 1
+- **Approach**: Sum the sub-lists then take the max.
+- **Answer**: 70613
+- **Timing**: 0.0005538463592529297
+#### Part 2
+- **Approach**: Sum the sub-lists then sort and sum the top 3.
+- **Answer**: 205805
+- **Timing**: 0.0008478164672851562
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
@@ -106,7 +117,7 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 633
 - **Timing**: 0.03409886360168457
 #### Part 2
-- **Approach**: Solved using skimage's food function. Mathematical morphology functions are often useful for topograpical data.
+- **Approach**: Solved using skimage's flood function. Mathematical morphology functions are often useful for topograpical data.
 - **Answer**: 1050192
 - **Timing**: 0.14930510520935059
 
