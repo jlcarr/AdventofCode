@@ -1,5 +1,5 @@
 """
-Solution to Advent of Code 2022 day 1 part 2
+Solution to Advent of Code 2022 day 1 part 1
 
 Solved by summing the sub-lists then taking the max
 """

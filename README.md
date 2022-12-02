@@ -20,7 +20,7 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - On occasion I will consider different approaches to the problem: the one I end of using remains in the ```AoC[year]_day[day]_[part].py```, while the discarded/incomplete solution will be in another file.
 
 ## 2022 Solutions
-### Day 1: 
+### Day 1: Calorie Counting
 #### Part 1
 - **Approach**: Sum the sub-lists then take the max.
 - **Answer**: 70613
@@ -29,6 +29,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Sum the sub-lists then sort and sum the top 3.
 - **Answer**: 205805
 - **Timing**: 0.0008478164672851562
+
+### Day 2: Calorie Counting
+#### Part 1
+- **Approach**: Constructed the map of points from each case, and a if-switch for the shape-points.
+- **Answer**: 11873
+- **Timing**: 0.0019898414611816406
+#### Part 2
+- **Approach**: Constructed an inverse of the points map to determine which symbol was needed, then proceeded with the original points calculation.
+- **Answer**: 12014
+- **Timing**: 0.002454996109008789
 
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
