@@ -30,7 +30,7 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 205805
 - **Timing**: 0.0008478164672851562
 
-### Day 2: Calorie Counting
+### Day 2: Rock Paper Scissors
 #### Part 1
 - **Approach**: Constructed the map of points from each case, and a if-switch for the shape-points.
 - **Answer**: 11873
@@ -40,6 +40,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 12014
 - **Timing**: 0.002454996109008789
 
+### Day 3: Rucksack Reorganization
+#### Part 1
+- **Approach**: Solved by slicing each string in half, then taking the intersection of the sets of each half, and finally performing ordinal arithmetic on the resulting character.
+- **Answer**: 7742
+- **Timing**: 0.0009257793426513672
+#### Part 2
+- **Approach**: Solved by going 3 at a time, and taking the set intersection between all, finishing with the same ordinal arithmatic.
+- **Answer**: 2276
+- **Timing**: 0.0005550384521484375
+
+## 2021 Solutions
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
