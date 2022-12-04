@@ -50,6 +50,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 2276
 - **Timing**: 0.0005550384521484375
 
+### Day 4: Camp Cleanup
+#### Part 1
+- **Approach**: Solved by simply checking each range to see if it contained the other.
+- **Answer**: 509
+- **Timing**: 0.002546072006225586
+#### Part 2
+- **Approach**: Solved using the classic range intersection formula: to intersect the smallest of each must be less than the largest of the opposite.
+- **Answer**: 870
+- **Timing**: 0.002237081527709961
+
+## 2021 Solutions
 ## 2021 Solutions
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
