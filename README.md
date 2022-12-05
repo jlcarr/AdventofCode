@@ -60,8 +60,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 870
 - **Timing**: 0.002237081527709961
 
-## 2021 Solutions
-## 2021 Solutions
+### Day 5: Supply Stack
+#### Part 1
+- **Approach**: Solved by directly simulating the stack moving, popping one element at a time. Mostly was tricky parsing the data, did so by counting spacing between chars.
+- **Answer**: TBVFVDZPN
+- **Timing**: 0.000982046127319336
+#### Part 2
+- **Approach**: Solved by directly simulating the stacks, this time with array slicing.
+- **Answer**: VLCWHTDSZ
+- **Timing**: 0.0006537437438964844
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
