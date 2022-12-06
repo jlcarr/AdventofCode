@@ -70,6 +70,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: VLCWHTDSZ
 - **Timing**: 0.0006537437438964844
 
+### Day 6: Tuning Trouble 
+#### Part 1
+- **Approach**: Solved using sets to check for uniqueness in the rolling window.
+- **Answer**: 1140
+- **Timing**: 0.0010941028594970703
+#### Part 2
+- **Approach**: Same as part 1.
+- **Answer**: 3495
+- **Timing**: 0.006528139114379883
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
