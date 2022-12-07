@@ -70,7 +70,7 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: VLCWHTDSZ
 - **Timing**: 0.0006537437438964844
 
-### Day 6: Tuning Trouble 
+### Day 6: Tuning Trouble
 #### Part 1
 - **Approach**: Solved using sets to check for uniqueness in the rolling window.
 - **Answer**: 1140
@@ -79,6 +79,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Same as part 1.
 - **Answer**: 3495
 - **Timing**: 0.006528139114379883
+
+### Day 7: No Space Left On Device
+#### Part 1
+- **Approach**: Solved by creating the file-system tree with dicts, including the parent link, and recursive tree traversal to compute the directory sizes and final result.
+- **Answer**: 1307902
+- **Timing**: 0.0007040500640869141
+#### Part 2
+- **Approach**: Same as part 1, but with less to compute, and using a global dict of directory sizes to finally run through to find the optimal directory to delete.
+- **Answer**: 7068748
+- **Timing**: 0.0007309913635253906
 
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
