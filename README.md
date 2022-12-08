@@ -90,6 +90,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 7068748
 - **Timing**: 0.0007309913635253906
 
+### Day 8: Treetop Tree House
+#### Part 1
+- **Approach**: Simply performed the looping on each element for each direction. Careful of off-by-one errors!
+- **Answer**: 1560
+- **Timing**: 0.023669004440307617
+#### Part 2
+- **Approach**: Simply performed the looping on each element for each direction. Careful of off-by-one errors!
+- **Answer**: 252000
+- **Timing**: 0.044738054275512695
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
