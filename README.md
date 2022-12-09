@@ -100,6 +100,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 252000
 - **Timing**: 0.044738054275512695
 
+### Day 9: Rope Bridge
+#### Part 1
+- **Approach**: Solved creating the map of all moves needed. Also not a move is only needed if the difference in one dimension is greater than 1. Also count coordinates in a set.
+- **Answer**: 6037
+- **Timing**: 0.013653993606567383
+#### Part 2
+- **Approach**: Similar to part 1, but adding the extra possible "full diagonal" moves and keeping track of the full list of knots and updating with a prev.
+- **Answer**: 2485
+- **Timing**: 0.07366514205932617
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
