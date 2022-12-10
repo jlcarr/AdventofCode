@@ -110,6 +110,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 2485
 - **Timing**: 0.07366514205932617
 
+### Day 10: Cathode-Ray Tube
+#### Part 1
+- **Approach**: Solved using modular arithmetic to check when at the correct instruction, and fully simulating every cycle.
+- **Answer**: 12980
+- **Timing**: 0.00016617774963378906
+#### Part 2
+- **Approach**: Solved by using modular arithmetic, and indexing into the resulting image.
+- **Answer**: BRJLFULP
+- **Timing**: 0.0001888275146484375
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
