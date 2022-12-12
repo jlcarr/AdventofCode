@@ -120,6 +120,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: BRJLFULP
 - **Timing**: 0.0001888275146484375
 
+### Day 11: Monkey in the Middle
+#### Part 1
+- **Approach**: Implement each monkey as a dictionary of it's features, then loop through the rounds over each monkey's items computing the new worry and new monkey. Use Python's deque for the items queue. A list to keep track of how many items each monkey inspects can then be sorted to find the top 2.
+- **Answer**: 121450
+- **Timing**: 0.0008020401000976562
+#### Part 2
+- **Approach**: Same as part 1, but the worry to explode taking up a lot of memory and computational time: we only need the divisibility as a test, and that won't change if we work with the modulus of a number that is divisible by all divisibility tests.
+- **Answer**: 28244037010
+- **Timing**: 0.3814840316772461
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
