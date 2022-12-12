@@ -130,6 +130,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 28244037010
 - **Timing**: 0.3814840316772461
 
+### Day 12: Hill Climbing Algorithm
+#### Part 1
+- **Approach**: Solved using NetworkX to implement the shortest path algorithm. All I had to do was contruct the directed graph by parsing the grid with ord and checking valid neighbors.
+- **Answer**: 394
+- **Timing**: 0.03999900817871094
+#### Part 2
+- **Approach**: Same as part one, but searched for all starting points and iterated over them to get the best result. Had to use try/except for NetworkX's NetworkXNoPath error.
+- **Answer**: 388
+- **Timing**: 1.6430201530456543
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
