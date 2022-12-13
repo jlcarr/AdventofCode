@@ -140,6 +140,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 388
 - **Timing**: 1.6430201530456543
 
+### Day 13: Distress Signal
+#### Part 1
+- **Approach**: Solved by implementing the comparator as described. Use the json library to parse the lists.
+- **Answer**: 6420
+- **Timing**: 0.002544879913330078
+#### Part 2
+- **Approach**: Same as part 1, except removing double-newlines, adding in the extra packets for separators. Used functools.cmp_to_key to turn the comparator into a sort key.
+- **Answer**: 22000
+- **Timing**: 0.0056760311126708984
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
