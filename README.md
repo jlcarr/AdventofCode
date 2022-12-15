@@ -150,6 +150,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 22000
 - **Timing**: 0.0056760311126708984
 
+### Day 14: Regolith Reservoir
+#### Part 1
+- **Approach**: Solved using numpy for the grid and simulating each grain at a time.
+- **Answer**: 1298
+- **Timing**: 0.08171701431274414
+#### Part 2
+- **Approach**: Same as part 1, but widening for more sand dropping, and including the floor bound.
+- **Answer**: 25585
+- **Timing**: 2.062486171722412
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
