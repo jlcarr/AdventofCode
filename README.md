@@ -160,6 +160,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 25585
 - **Timing**: 2.062486171722412
 
+### Day 15: Beacon Exclusion Zone
+#### Part 1
+- **Approach**: Solved using a set of all indices found on the y line, which is filled by started at the nearest point on the y, and moving while within the distance and adding. Finish by removing all actual beacons from the set.
+- **Answer**: 5508234
+- **Timing**: 2.092556953430176
+#### Part 2
+- **Approach**: Solved by looking at the perimeters just outside of each sensor, for each point checking the distances with every other beacon and stopping once a valid solution is found. This turns the 2D problem into a 1D problem.
+- **Answer**: 10457634860779
+- **Timing**: 345.6069059371948
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
