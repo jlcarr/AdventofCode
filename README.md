@@ -170,6 +170,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 10457634860779
 - **Timing**: 345.6069059371948
 
+### Day 16: Proboscidea Volcanium
+#### Part 1
+- **Approach**: Solved by first using NetworkX to find the distances between all pairs of tunnels. It is now a problem of finding the optimal ordering of the valves to open. Then the key insight to making the problem computationally feasible is to notice that most of the valves have a flow-rate of 0 and can be ignored. Perform a DFS keeping track of the current location, the time and the state of the valves.
+- **Answer**: 2253
+- **Timing**: 1.5662117004394531
+#### Part 2
+- **Approach**: Similar to part 1, but using the insight that the valves you and the elephant visit will be independent, and so we can run the same BFS on masks and complements of all non-zero valves and take the sum. Caching by current valve, time remaining and valve states, makes this go much faster.
+- **Answer**: 2838
+- **Timing**: 100.70373129844666
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1

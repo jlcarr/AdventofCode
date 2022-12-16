@@ -1,5 +1,5 @@
 """
-Solution to Advent of Code 2022 day 1 part 2
+Solution to Advent of Code 2022 day 15 part 2
 
 The elegant solution
 """

@@ -1,5 +1,5 @@
 """
-Solution to Advent of Code 2022 day 1 part 2
+Solution to Advent of Code 2022 day 15 part 2
 
 Solved by looking at the perimeters just outside of each sensor, for each point checking the distances with every other beacon and stopping once a valid solution is found. This turns the 2D problem into a 1D problem.
 More elegant solution is to use z3.

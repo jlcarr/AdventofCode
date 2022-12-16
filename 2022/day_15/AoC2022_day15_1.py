@@ -1,5 +1,5 @@
 """
-Solution to Advent of Code 2022 day 1 part 2
+Solution to Advent of Code 2022 day 15 part 2
 
 Solved using a set of all indices found on the y line, which is filled by started at the nearest point on the y, and moving while within the distance and adding. Finish by removing all actual beacons from the set.
 A more elegant solution would have been to use a list of ranges.
