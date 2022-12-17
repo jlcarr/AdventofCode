@@ -180,6 +180,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 2838
 - **Timing**: 100.70373129844666
 
+### Day 17: Pyroclastic Flow
+#### Part 1
+- **Approach**: Solved by simply simulating the falling, and keeping track of the max height. Filled positions are kept in a set for quick checking for collisions.
+- **Answer**: 3100
+- **Timing**: 0.05015397071838379
+#### Part 2
+- **Approach**: Solved using part 1 for the simulation, then looking for a cycle where the position in the jet pattern is the same, and the last block dropped is the same and the filled positions are the same. That way we can find the rounds of the cycle remaining and the height difference from each cycle and simply multiply through instead of simulating, finishing off with the remainder heigh difference. I used the last positions of the complete set of blocks as the resting position hash, which worked for this puzzle input.
+- **Answer**: 1540634005751
+- **Timing**: 0.04747128486633301
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
