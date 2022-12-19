@@ -190,6 +190,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1540634005751
 - **Timing**: 0.04747128486633301
 
+### Day 18: Boiling Boulders
+#### Part 1
+- **Approach**: Solved using a set of all the faces found and all the faces found more than once. The hash key for the face are the block coordinates on either side of the face in sorted order.
+- **Answer**: 3576
+- **Timing**: 0.012495040893554688
+#### Part 2
+- **Approach**: Solved by first performing a flood-fill via BFS on each block and seeing if doesn't escape. Keeping record of which blocks have already been searched.
+- **Answer**: 2066
+- **Timing**: 0.033136844635009766
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
