@@ -200,6 +200,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 2066
 - **Timing**: 0.033136844635009766
 
+### Day 19: Not Enough Minerals
+#### Part 1
+- **Approach**: Essentially a DFS/DP search for the optimal building choices at each time step for each blueprint. Optimizations include not needing to represent the number of geodes or geode bots in the state (we can compute their contribution on the spot), always choose to build a geode bot when possible, and finally don't continue to build bots after we are producing more than we could possibly spend in a given time-step. Also careful to only update resources after construction choice is made, but before the robot is added.
+- **Answer**: 978
+- **Timing**: 151.48627495765686
+#### Part 2
+- **Approach**: I ended up finding that the fastest way for me to solve this one was to just wait the extra time for the longer depth search to run. Optimizations from part 1 apply to part 2 as well.
+- **Answer**: 15939
+- **Timing**: 345.3918488025665
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
