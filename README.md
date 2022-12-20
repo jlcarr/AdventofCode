@@ -220,20 +220,6 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 11102539613040
 - **Timing**: 1.6746490001678467
 
-### Day 20: Grove Positioning System
-#### Part 1
-- **Approach**: The main trick is to keep track of the original indices of each number in another list an apply the transformations to each. Use the index, pop and insert list operations and modular arithmetic. Be careful with the off-by-one errors.
-- **Answer**: 11073
-- **Timing**: 0.11153388023376465
-#### Part 2
-- **Approach**: Same as part 1, but applying the extra transformations keeping track of the very original positions. Extra care with the modular arithmetic.
--10000 9996 5000 3615
-4309538402430
-1865031873594
-4927969337016
-- **Answer**: 11102539613040
-- **Timing**: 1.682952880859375
-
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
