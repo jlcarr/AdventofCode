@@ -27,7 +27,7 @@ def solution(input_file):
 	entries = [int(e) for e in entries]
 	#entries = [1, 2, -3, 3, -2, 0, 4]
 	#print(entries)
-	print(min(entries), max(entries), len(entries), len(set(entries)))
+	#print(min(entries), max(entries), len(entries), len(set(entries)))
 
 	# Solving
 	n = len(entries)
@@ -66,7 +66,7 @@ def solution(input_file):
 	zeroindex = mixed.index(0)
 	for i in range(1,3+1):
 		sol += mixed[(i*1000+zeroindex)%n]
-		print(mixed[(i*1000+zeroindex)%n])
+		#print(mixed[(i*1000+zeroindex)%n])
 		#print((i*1000 + zeroindex)%n)
 		#break
 
