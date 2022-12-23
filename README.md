@@ -220,6 +220,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 11102539613040
 - **Timing**: 1.6746490001678467
 
+### Day 21: Monkey Math
+#### Part 1
+- **Approach**: Simply ran through the process of elimination until the root was found.
+- **Answer**: 232974643455000
+- **Timing**: 0.003342151641845703
+#### Part 2
+- **Approach**: This problem was perfect for z3. Simply parse out all the relations, and ensure 'humn' is left as a free variable. One pitfall was to make sure to enforce divisions are only allowed when there aren't remainders.
+- **Answer**: 3740214169961
+- **Timing**: 2.268770694732666
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
