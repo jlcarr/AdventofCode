@@ -240,6 +240,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 189097
 - **Timing**: 0.049916982650756836
 
+### Day 23: Unstable Diffusion
+#### Part 1
+- **Approach**: Fairly straighforward implementation of the instructions. There were several gotchas, such as the elves no longer moving as soon as they have no neighbors. Performed the simulation with loops, including some cleverness to cycle through the order of direction proposals. Also padded only when needed, and did a final shaving before reporting the final answer.
+- **Answer**: 4158
+- **Timing**: 0.377399206161499
+#### Part 2
+- **Approach**: Same as part 1, but letting the loop continue until the counts of proposed positions turned up 0.
+- **Answer**: 1014
+- **Timing**: 37.766417264938354
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
