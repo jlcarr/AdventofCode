@@ -230,6 +230,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 3740214169961
 - **Timing**: 2.268770694732666
 
+### Day 22: Monkey Map
+#### Part 1
+- **Approach**: Keep track of the orientation, and have a map for changing the orientation. Walking off edges can be handled with modular arithmetic and not counting steps on empty spots, evaluating the actual step forward lazily in case of a wall.
+- **Answer**: 103224
+- **Timing**: 0.03242206573486328
+#### Part 2
+- **Approach**: After sketching the net on a piece of paper I realized we could use my same approach as part 1 if we also mark some of the empty tiles to "mirror/bounce" the orientation to go around corners. It ended up working very elegantly.
+- **Answer**: 189097
+- **Timing**: 0.049916982650756836
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
