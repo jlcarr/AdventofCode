@@ -250,6 +250,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1014
 - **Timing**: 37.766417264938354
 
+### Day 24: Blizzard Basin
+#### Part 1
+- **Approach**: Used a list of keep track of blizzard positions and orientations and updated with modular arithmetic. The paths are independently cyclic, so just find the common multiple which was relatively low, and run through all board configurations once. Construct the graph of positions and round keys, with the final exit as a special position without round, then find the shortest path with NetworkX.
+- **Answer**: 334
+- **Timing**: 2.791645050048828
+#### Part 2
+- **Approach**: Same as part 1, but just added a special state for the exiting at the beginning. Then solve there, back, and there again, using the distances to compute the round start of the next trip. Note it is always optimal to arrive as soon as possible then wait if need be.
+- **Answer**: 934
+- **Timing**: 3.043268918991089
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
