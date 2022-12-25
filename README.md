@@ -260,6 +260,14 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 934
 - **Timing**: 3.043268918991089
 
+### Day 25: Full of Hot Air
+#### Part 1
+- **Approach**: An exotic base system, easy enough do the interpretation into a number in memory, however as for how to get back, I just threw z3 at it since I knew it would solve it without fuss. Each digit is a variable with bounds.
+- **Answer**: 2-=2-0=-0-=0200=--21
+- **Timing**: 0.029268980026245117
+#### Part 2
+- **Approach**: Click a link.
+
 ## 2021 Solutions
 ### Day 1: Sonar Sweep 
 #### Part 1
