@@ -19,6 +19,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - I'm also adding a series of useful links to topics useful to each problem at the end.
 - On occasion I will consider different approaches to the problem: the one I end of using remains in the ```AoC[year]_day[day]_[part].py```, while the discarded/incomplete solution will be in another file.
 
+## 2023 Solutions
+### Day 1: Trebuchet?!
+#### Part 1
+- **Approach**: Solved by just filtering the string with list comprehension.
+- **Answer**: 55029
+- **Timing**: 0.0026428699493408203
+#### Part 2
+- **Approach**: Solved by constructing the list of digits written out, and building up the line string, checking if they end with a digit or digit string.
+- **Answer**: 55686
+- **Timing**: 0.01918172836303711
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
