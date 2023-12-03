@@ -30,6 +30,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 55686
 - **Timing**: 0.01918172836303711
 
+### Day 2: Cube Conundrum
+#### Part 1
+- **Approach**: Solved by parsing using split, then used a mapping of maximum values and ensured every entry remained under.
+- **Answer**: 2169
+- **Timing**: 0.0012331008911132812
+#### Part 2
+- **Approach**: Solved parsing with splitting then keeping track of the maximum values of each color seen in each entry.
+- **Answer**: 60948
+- **Timing**: 0.0014262199401855469
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
