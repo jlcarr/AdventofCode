@@ -40,6 +40,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 60948
 - **Timing**: 0.0014262199401855469
 
+### Day 3: Gear Ratios
+#### Part 1
+- **Approach**: Solved by scanning by iterating over rows then cols, building up numbers found, and for each position scanning for adjacent symbols, then adding once end of number is found.
+- **Answer**: 537832
+- **Timing**: 0.00596928596496582
+#### Part 2
+- **Approach**: Similar to part 1, except keep track of all gears by their positions, and during scans over a number keep a set of all adjacent gears, at boundary add to that gear's list of ratios, which can then be accumulated at the end.
+- **Answer**: 81939900
+- **Timing**: 0.0064849853515625
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
