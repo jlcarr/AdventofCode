@@ -50,6 +50,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 81939900
 - **Timing**: 0.0064849853515625
 
+### Day 4: Scratchcards
+#### Part 1
+- **Approach**: Solved using set intersection, and power of 2. Parsing done with splitting.
+- **Answer**: 23673
+- **Timing**: 0.0021820068359375
+#### Part 2
+- **Approach**: Similar to part 2, but kept track of the number of compies of each ticket, and performed the addition forward for each win, summing total at the end.
+- **Answer**: 12263631
+- **Timing**: 0.001964092254638672
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
