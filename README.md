@@ -60,6 +60,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 12263631
 - **Timing**: 0.001964092254638672
 
+### Day 5: If You Give A Seed A Fertilizer
+#### Part 1
+- **Approach**: Solved by parsing up the mappings, then for each seed going through each range to see if any can update the value.
+- **Answer**: 51580674
+- **Timing**: 0.000453948974609375
+#### Part 2
+- **Approach**: Solved by keeping track of ranges, and checking for range intersection, then cutting up the ranges as needed, and keeping the seeds in a stack in case they get cut into multiple ranges.
+- **Answer**: 99751240
+- **Timing**: 0.001138925552368164
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
