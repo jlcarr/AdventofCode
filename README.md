@@ -70,6 +70,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 99751240
 - **Timing**: 0.001138925552368164
 
+### Day 6: Wait For It
+#### Part 1
+- **Approach**: Solved by simply running through each possible speed and checking if it wins. A more elegant solution using math is explained in part 2.
+- **Answer**: 1710720
+- **Timing**: 0.00019216537475585938
+#### Part 2
+- **Approach**: I solved it by filtering the spaces and letting the same code as part 1 run for a little longer. The instant solution is `math.ceil(math.sqrt(t**2 - 4*d))`.
+- **Answer**: 35349468
+- **Timing**: 4.878834962844849
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
