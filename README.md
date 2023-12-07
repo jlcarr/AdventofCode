@@ -80,6 +80,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 35349468
 - **Timing**: 4.878834962844849
 
+### Day 7: Camel Cards
+#### Part 1
+- **Approach**: Mapped face cards to apropriate ints, then used the `Counter` class to check for the hand's type, then set that up with the hand values and the bids after so they can be sorted, and then the final value computed.
+- **Answer**: 253313241
+- **Timing**: 0.004082918167114258
+#### Part 2
+- **Approach**: Similar to part 2, just updated the `Counter` logic to be cleaner, and for the wild-cards its always advantageous to match the most common already in hand (avoiding more Js). Realized should added in case of ties to use highest, but funny enough it still worked.
+- **Answer**: 253362743
+- **Timing**: 0.004853963851928711
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
