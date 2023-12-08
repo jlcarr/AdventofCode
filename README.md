@@ -90,6 +90,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 253362743
 - **Timing**: 0.004853963851928711
 
+### Day 8: Haunted Wasteland
+#### Part 1
+- **Approach**: We simply perform the simulation until the destination is reached.
+- **Answer**: 20777
+- **Timing**: 0.0029268264770507812
+#### Part 2
+- **Approach**: First found the cycles and their leads, noticing we need to keep track of which step in the instructions we're on as part of the state. Afterwards notice that target nodes only show up once per cycle and never in the leads. This means solving a system of congruences, with the Chinese Remainder Theorem, since they were all coprime up to the length of the instructionset: the input was generated for this convenience. For some reason Sympy's conguence solver didn't work, but the CRT did the trick.
+- **Answer**: 13289612809129
+- **Timing**: 0.08982133865356445
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
