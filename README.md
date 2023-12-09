@@ -96,9 +96,19 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 20777
 - **Timing**: 0.0029268264770507812
 #### Part 2
-- **Approach**: First found the cycles and their leads, noticing we need to keep track of which step in the instructions we're on as part of the state. Afterwards notice that target nodes only show up once per cycle and never in the leads. This means solving a system of congruences, with the Chinese Remainder Theorem, since they were all coprime up to the length of the instructionset: the input was generated for this convenience. For some reason Sympy's conguence solver didn't work, but the CRT did the trick.
+- **Approach**: First found the cycles and their leads, noticing we need to keep track of which step in the instructions we're on as part of the state. Afterwards notice that target nodes only show up once per cycle and never in the leads. This means solving a system of congruences, with the Chinese Remainder Theorem, since they were all coprime up to the length of the instructionset: the input was generated for this convenience. For some reason Sympy's conguence solver didn't work, but the CRT did the trick. z3 will also solve this problem cleanly.
 - **Answer**: 13289612809129
 - **Timing**: 0.08982133865356445
+
+### Day 9: Mirage Maintenance
+#### Part 1
+- **Approach**: Solved by directly doing the repeated difference, keeping track of the last values to sum them. Better solution is to know that this means we have a polynomial, and use an Lagrange polynomial fit.
+- **Answer**: 2101499000
+- **Timing**: 0.020541906356811523
+#### Part 2
+- **Approach**: Similar to part one, but directly simulated the subtracting at the beginning.
+- **Answer**: 1089
+- **Timing**: 0.020593881607055664
 
 ## 2022 Solutions
 ### Day 1: Calorie Counting
