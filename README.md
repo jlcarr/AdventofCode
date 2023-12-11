@@ -120,6 +120,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 579
 - **Timing**: 17.63448190689087
 
+### Day 11: Cosmic Expansion
+#### Part 1
+- **Approach**: Solved by simply performing the array expansion as we check each row and column for empties, then summing every pairwise distance.
+- **Answer**: 10313550
+- **Timing**: 0.017802953720092773
+#### Part 2
+- **Approach**: Just kept track of rows and columns which would be expanded, and when computing the distances for each pair, check of any rows or columns between them are in the expanded sets, and if so add on the additional distances.
+- **Answer**: 611998089572
+- **Timing**: 0.3986222743988037
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
