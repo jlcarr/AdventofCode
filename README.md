@@ -110,6 +110,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1089
 - **Timing**: 0.020593881607055664
 
+### Day 10: Pipe Maze
+#### Part 1
+- **Approach**: Solved by checking valid ajacencies, and then performing BFS on that.
+- **Answer**: 6738
+- **Timing**: 0.014072895050048828
+#### Part 2
+- **Approach**: Ended up using the Shapely library to check for polygon containing points. Had to do a traversal around the polygon to get all the points in the correct order. Tried implementing a winding-number solution but it didn't work.
+- **Answer**: 579
+- **Timing**: 17.63448190689087
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
