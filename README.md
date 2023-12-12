@@ -130,6 +130,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 611998089572
 - **Timing**: 0.3986222743988037
 
+### Day 12: Hot Springs
+#### Part 1
+- **Approach**: Solved using dynamic programming over the position along the template string, the number of matched streaks, and the current number of contiguous damaged springs.
+- **Answer**: 7792
+- **Timing**: 0.04003095626831055
+#### Part 2
+- **Approach**: Same dynamic programming as part 1, just increasing the input size as directed.
+- **Answer**: 13012052341533
+- **Timing**: 1.2259790897369385
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
