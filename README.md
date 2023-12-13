@@ -140,6 +140,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 13012052341533
 - **Timing**: 1.2259790897369385
 
+### Day 13: Point of Incidence
+#### Part 1
+- **Approach**: Used numpy with indexing to compare vertical and horizontal mirrors about different candidate lines, being careful for bounds.
+- **Answer**: 36041
+- **Timing**: 0.016080141067504883
+#### Part 2
+- **Approach**: Similar to part 1, but just brute-force ran through all the possible flips in each array, checking we don't have original solution.
+- **Answer**: 35915
+- **Timing**: 0.9191727638244629
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
