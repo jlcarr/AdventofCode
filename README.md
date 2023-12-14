@@ -150,6 +150,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 35915
 - **Timing**: 0.9191727638244629
 
+### Day 14: Parabolic Reflector Dish
+#### Part 1
+- **Approach**: Iterated over each column, going down the column, and keeping a queue of available places for the rounded rocks to fall, which is reset if we hit a stationary cube rock. After this summing the distances is easy.
+- **Answer**: 105249
+- **Timing**: 0.002225160598754883
+#### Part 2
+- **Approach**: The solution is to find the cycle, and compute the number of the remaining and subtract them out, so we only have the remainder of the cycle left. Used a hash on the ordered tuple of all rock positions to quick lookups.
+- **Answer**: 88680
+- **Timing**: 1.098949909210205
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
