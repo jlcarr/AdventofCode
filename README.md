@@ -160,6 +160,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 88680
 - **Timing**: 1.098949909210205
 
+### Day 15: Lens Library
+#### Part 1
+- **Approach**: Solved by simply iterating through the string, and applying the operations, using Python's ord to get the ASCII values.
+- **Answer**: 514394
+- **Timing**: 0.002474069595336914
+#### Part 2
+- **Approach**: This was the perfect opportunity to use Python's OrderedDict class.
+- **Answer**: 236358
+- **Timing**: 0.0035469532012939453
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
