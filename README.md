@@ -170,6 +170,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 236358
 - **Timing**: 0.0035469532012939453
 
+### Day 16: The Floor Will Be Lava
+#### Part 1
+- **Approach**: Simply perform the simulation, keeping track of each beam head's position and direction to update accordingly. Keep track states visited to avoid loops, and keep track of tiles visited for the final answer.
+- **Answer**: 8901
+- **Timing**: 0.01546478271484375
+#### Part 2
+- **Approach**: Same as part 1, just brute-forced over each possible starting position.
+- **Answer**: 9064
+- **Timing**: 2.5953688621520996
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
