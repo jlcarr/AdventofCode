@@ -180,6 +180,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 9064
 - **Timing**: 2.5953688621520996
 
+### Day 17: Clumsy Crucible
+#### Part 1
+- **Approach**: Implemented Dijkstra's algorithm, using Python's heapq, also the state inclduded the direction and a countdown for steps taken in the same direction.
+- **Answer**: 1039
+- **Timing**: 0.4458200931549072
+#### Part 2
+- **Approach**: Same as part 1, but made it a count-up instead of down, and used that to filter states.
+- **Answer**: 1201
+- **Timing**: 1.6011888980865479
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
