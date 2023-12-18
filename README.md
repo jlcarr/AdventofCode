@@ -190,6 +190,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1201
 - **Timing**: 1.6011888980865479
 
+### Day 18: Lavaduct Lagoon
+#### Part 1
+- **Approach**: Made of a set of all dug points from the instructions, then bound the bounds and applied flood-fill on the boundary to find the complement area, and compute the final area.
+- **Answer**: 38188
+- **Timing**: 0.06021308898925781
+#### Part 2
+- **Approach**: This time used Shapely to do the geometry computations. Each instruction is a rectangle, so union them all, take the exterior polygon's area.
+- **Answer**: 93325849869340
+- **Timing**: 0.049382925033569336
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
