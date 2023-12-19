@@ -200,6 +200,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 93325849869340
 - **Timing**: 0.049382925033569336
 
+### Day 19: Aplenty
+#### Part 1
+- **Approach**: Solved by simply implementing the instructions, using a dict for the workflows.
+- **Answer**: 432427
+- **Timing**: 0.002557992935180664
+#### Part 2
+- **Approach**: Keep track of ranges which are split as each rules is applied to them. When a range is accepted we can easily compute the number of elements within.
+- **Answer**: 143760172569135
+- **Timing**: 0.004436969757080078
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
