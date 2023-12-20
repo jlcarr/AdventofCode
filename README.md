@@ -210,6 +210,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 143760172569135
 - **Timing**: 0.004436969757080078
 
+### Day 20: Pulse Propagation
+#### Part 1
+- **Approach**: Simply perform the simulation by creating mappings of child parent relations, and flip-flop states and conjunction inputs, using a queue for the pulses, keeping track of value, destination and origin.
+- **Answer**: 787056720
+- **Timing**: 0.02446722984313965
+#### Part 2
+- **Approach**: In general since we have flip-flops with feedback, it's undecidable if a given circuit would even terminate running, let alone compute the number of presses: ie the problem is incomputable in general. However by assuming the input is crafted to terminate quickly, the number of possible states is 2 to the power of the flip-flops, which therefore must cycle eventually (again using the "always terminates" assumption). However by graphing the input with GraphViz we see 4 disjoint structures all feeding into the final rx, each with a tractable number of states: we can just find the cycle length for those, and then find the LCM, which works.
+- **Answer**: 212986464842911
+- **Timing**: 0.09630417823791504
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
