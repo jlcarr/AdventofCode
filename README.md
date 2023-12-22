@@ -230,6 +230,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 625382480005896
 - **Timing**: 37.46765995025635
 
+### Day 22: Sand Slabs
+#### Part 1
+- **Approach**: We can determine the pile up without simulating, just by checking which blocks below a given block intersect with it in the xy. By sorting by lowest z value we ensure we process in the right order and get a final a value for each block. For each block we need to check which blocks it could land on and place it 1 space above the max possible final z. We can use the same xy intersection and comparison of final z position to find which blocks are on top of which other. A block with only 1 support means that support can't be disintegrated, so we can count up the essential blocks.
+- **Answer**: 395
+- **Timing**: 0.6963539123535156
+#### Part 2
+- **Approach**: Similar computation of block order as part 1, but inverting the mapping of blocks into others gives which blocks a given block supports. For each block we need to search for which blocks will fall if removed in order: use a heap as a priority queue by max z height, so as to ensure we process all supports of a given block before the block itself to see if it falls.
+- **Answer**: 64714
+- **Timing**: 1.1418240070343018
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
