@@ -220,6 +220,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 212986464842911
 - **Timing**: 0.09630417823791504
 
+### Day 21: Step Counter
+#### Part 1
+- **Approach**: Simply perform the simulation with BFS. Convolution is another possible approach.
+- **Answer**: 3737
+- **Timing**: 0.0711827278137207
+#### Part 2
+- **Approach**: Because of the repeating tile structure and Manhattan distance traversal, we eventually reach a point where the expanding diamond's edges will be the same along a side, and an increase of steps by a tile length will just add more tiles to the interior without changing the repeated structure of the edges. For the input we also have an "air gap" which makes it converge faster. Since the "area" covered will be proportional to the square of the distance, we can fit a quadratic and extrapolate. We take samples starting from the remainder with the target, then at every period equal to a tile length, and check for the point at which the 3rd difference is 0, indicating we have reached the polynomial regularity. Use a Lagrange polynomial for an exact fit.
+- **Answer**: 625382480005896
+- **Timing**: 37.46765995025635
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
