@@ -240,6 +240,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 64714
 - **Timing**: 1.1418240070343018
 
+### Day 23: A Long Walk
+#### Part 1
+- **Approach**: The hint about going downhill implies there will be no possible loops. So we can give an id to each branch we are exploring, updated at each junction we reach: we cannot go to a node with the same id, or back onto a predecessor, since that would be backtracking. Otherwise we're just trying to find the longest route possible by updating a mapping of longest distances to get to a given node found so far with a typical graph traversal.
+- **Answer**: 2166
+- **Timing**: 0.060801029205322266
+#### Part 2
+- **Approach**: Run through the grid identifying junctions, then search from each junction to find neighboring junctions and the distance to them, thus construct the simplified weighted graph. Use dynamic programming to find the simple path of maximum total distance.
+- **Answer**: 6378
+- **Timing**: 37.93946313858032
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
