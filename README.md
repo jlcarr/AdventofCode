@@ -76,7 +76,7 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1710720
 - **Timing**: 0.00019216537475585938
 #### Part 2
-- **Approach**: I solved it by filtering the spaces and letting the same code as part 1 run for a little longer. The instant solution is `math.ceil(math.sqrt(t**2 - 4*d))`.
+- **Approach**: I solved it by filtering the spaces and letting the same code as part 1 run for a little longer. The instant solution is `math.ceil(math.sqrt(t**2 - 4 * d))`.
 - **Answer**: 35349468
 - **Timing**: 4.878834962844849
 
@@ -249,6 +249,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Run through the grid identifying junctions, then search from each junction to find neighboring junctions and the distance to them, thus construct the simplified weighted graph. Use dynamic programming to find the simple path of maximum total distance.
 - **Answer**: 6378
 - **Timing**: 37.93946313858032
+
+### Day 24: Never Tell Me The Odds
+#### Part 1
+- **Approach**: Just iterated over all pairs and did the algebra to find the intersections, checking if parallel first. Use algebra as well to make sure the time of the intersecctions is positive. Then just count all intersections that fall in the bounds.
+- **Answer**: 31921
+- **Timing**: 0.046591997146606445
+#### Part 2
+- **Approach**: Solved by throwing the large system of non-linear integer equations into z3. Had to remove the time variables with algebra, so we only had 6 variables in the end for each initial position and velocity components. Without z3 could have constructed a Lagrangian with the sum of squares of each equation and solved numerically.
+- **Answer**: 761691907059631
+- **Timing**: 0.8538029193878174
+- **Note**: First time leaderboarding at 35th place on pt 2!
 
 ## 2022 Solutions
 ### Day 1: Calorie Counting
