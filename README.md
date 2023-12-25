@@ -261,6 +261,14 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Timing**: 0.8538029193878174
 - **Note**: First time leaderboarding at 35th place on pt 2!
 
+### Day 25: Snowverload
+#### Part 1
+- **Approach**: Solved using NetworkX to find the minimum cut, and the itertools library to go over each combination of start and end pairs for the flow, checking each one if the cut value was 3 edges, and the partition was size 2.
+- **Answer**: 572000
+- **Timing**: 0.053193092346191406
+#### Part 2
+- **Approach**: Click a link.
+
 ## 2022 Solutions
 ### Day 1: Calorie Counting
 #### Part 1
