@@ -30,6 +30,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 19678534
 - **Timing**: 0.0015769004821777344
 
+### Day 2: Red-Nosed Reports
+#### Part 1
+- **Approach**: Solved using Numpy on each row to diff it, and check each difference was within the bounds. We can also check if all differences are positive or negative to check if it's purely ascending or descending.
+- **Answer**: 383
+- **Timing**: 0.017232894897460938
+#### Part 2
+- **Approach**: Similar to part 1, except also looping over all elements to slice out for each row.
+- **Answer**: 436
+- **Timing**: 0.06342124938964844
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
