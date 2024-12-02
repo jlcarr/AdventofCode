@@ -19,6 +19,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - I'm also adding a series of useful links to topics useful to each problem at the end.
 - On occasion I will consider different approaches to the problem: the one I end of using remains in the ```AoC[year]_day[day]_[part].py```, while the discarded/incomplete solution will be in another file.
 
+## 2024 Solutions
+### Day 1: Historian Hysteria
+#### Part 1
+- **Approach**: Solved using split, and numpy for the the array sorting, differencing, absolute valueing and summing. 
+- **Answer**: 2031679
+- **Timing**: 0.0013058185577392578
+#### Part 2
+- **Approach**: Solved with similar parsing to part 1, Counter for the counts, and list comprehension with sum to finish off.
+- **Answer**: 19678534
+- **Timing**: 0.0015769004821777344
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
