@@ -40,6 +40,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 436
 - **Timing**: 0.06342124938964844
 
+### Day 3: Mull It Over
+#### Part 1
+- **Approach**: Solved using regex with capture groups, then a list comprehension it integer casting to finish up.
+- **Answer**: 185797128
+- **Timing**: 0.0007238388061523438
+#### Part 2
+- **Approach**: Similar to part 1, but also capturing "do" and "dont't", then using a complete for-loop to keep track of the state when doing the sum.
+- **Answer**: 89798695
+- **Timing**: 0.0010519027709960938
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
