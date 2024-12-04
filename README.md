@@ -50,6 +50,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 89798695
 - **Timing**: 0.0010519027709960938
 
+### Day 4: Ceres Search
+#### Part 1
+- **Approach**: Solved usual word search approach, but only looking for 1 word, check every possible starting position, over all directions, go along the word checking all letters match. Careful for hitting the puzzle edge.
+- **Answer**: 2554
+- **Timing**: 0.03951597213745117
+#### Part 2
+- **Approach**: Solved by first turning the array into `ord` integers, then using SciPy's `scipy.ndimage.generic_filter` to check the `"MAS"` cross at every point, then sum the hits.
+- **Answer**: 1916
+- **Timing**: 0.05582880973815918
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1

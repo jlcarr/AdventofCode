@@ -2,6 +2,7 @@
 Solution to Advent of Code 2024 day 3 part 1
 
 Solved using regex with capture groups, then a list comprehension it integer casting to finish up.
+More elegant solution using `from operator import mul` to make the 1-liner `sum(map(eval,re.findall(r'mul\(\d+,\d+\)',entries)))`.
 """
 import time
 import sys
