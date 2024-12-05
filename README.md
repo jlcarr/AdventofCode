@@ -60,6 +60,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1916
 - **Timing**: 0.05582880973815918
 
+### Day 5: Print Queue
+#### Part 1
+- **Approach**: Solved by simply checking all pairs of pages in each report and seeing if the inverse order of them exists in the set of rules. From there it's easy to get the middle page of each valid report.
+- **Answer**: 4872
+- **Timing**: 0.0021049976348876953
+#### Part 2
+- **Approach**: Solved similar to part 1, except which there is an invalid pairing, swap the elements, and then recheck until a valid ordering is reached. Note that a topological sort does not work, because there are cycles in the rules: updates must be generated so as not to contain one such cycle!
+- **Answer**: 5564
+- **Timing**: 0.05627012252807617
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
