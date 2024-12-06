@@ -70,6 +70,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 5564
 - **Timing**: 0.05627012252807617
 
+### Day 6: Guard Gallivant
+#### Part 1
+- **Approach**: Solved by simply performing the walk, using a cyclic array of directions, and keeping a copy of the grid to marking visited positions, which is summed for the answer.
+- **Answer**: 5212
+- **Timing**: 0.008491992950439453
+#### Part 2
+- **Approach**: Solved by iterating over all positions in the grid we could place the obstacle, and then running the simulation on the guard's path, keeping track of previous states to see if we reach a previous state, i.e. a loop, or leave the grid. The state space is size `w*h*d = 67,600`, and so the time complexity is proportional to `w^2*h^2*d = 1,142,440,000`, which is quite large but not quite infeasible. One way to cut down would be to only place the obstacle on positions the guard visits in Part 1, which should cut it down by a factor of 3.
+- **Answer**: 1767
+- **Timing**: 77.5355179309845
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
