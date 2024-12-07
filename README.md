@@ -80,6 +80,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1767
 - **Timing**: 77.5355179309845
 
+### Day 7: Bridge Repair
+#### Part 1
+- **Approach**: Solved using itertools to loop over all combinations of operators, and then run through the computation aggregating the result and checking for matches.
+- **Answer**: 303766880536
+- **Timing**: 0.20005512237548828
+#### Part 2
+- **Approach**: Solved the same way as Part 1, just the extra operation makes it take longer. The concat operation was implemented using string casting.
+- **Answer**: 337041851384440
+- **Timing**: 17.391553163528442
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
