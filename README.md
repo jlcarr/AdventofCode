@@ -90,6 +90,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 337041851384440
 - **Timing**: 17.391553163528442
 
+### Day 8: Resonant Collinearity
+#### Part 1
+- **Approach**: Solved using itertools to go over every pair of positions for each antenna, which I'd stored in a dictionary. On each pair take the difference in positions and use that to offset again from each, and tally up all the unique positions.
+- **Answer**: 413
+- **Timing**: 0.0004248619079589844
+#### Part 2
+- **Approach**: Solved similar to Part 1, but after getting the position difference walk starting from one of the nodes as far as possible in each direction marking nodes. I made the position differences in lowest terms via GCD, however this didn't actually make a difference on the input.
+- **Answer**: 1417
+- **Timing**: 0.0008780956268310547
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
