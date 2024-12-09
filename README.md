@@ -100,6 +100,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1417
 - **Timing**: 0.0008780956268310547
 
+### Day 9: Disk Fragmenter
+#### Part 1
+- **Approach**: Solved by simply building up the disk as ints of file ids or None for free space. Since each block can only be up to size 9 this is linear. We can then run through the disk from the front, and treat it as a stack we can pop from to fill space, as well as always remove free space the from back.
+- **Answer**: 6390180901651
+- **Timing**: 0.01630997657775879
+#### Part 2
+- **Approach**: Solved using heapq as a priority queue for each space size (there are only 9 after all) to find the lowest index at which they can be placed. We just need to run through them checking for the lowest index available which fits each block. After a block is moved, if there is leftover space where it was moved, then this new index is added to it's size's queue.
+- **Answer**: 6412390114238
+- **Timing**: 0.0321500301361084
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
