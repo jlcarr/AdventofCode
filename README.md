@@ -110,6 +110,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 6412390114238
 - **Timing**: 0.0321500301361084
 
+### Day 10: Hoof It
+#### Part 1
+- **Approach**: Solved using iterative stack-based DFS on each of the candidate trailheads and counting up the number of times 9-height positions reached. Funny enough I originally interpreted the problem as the part 2 version (edited out in my posted solution).
+- **Answer**: 468
+- **Timing**: 0.006072998046875
+#### Part 2
+- **Approach**: Solved similar to part 1, but with recursive DFS / DP with memoization to get the count of paths to each 9-height positions.
+- **Answer**: 966
+- **Timing**: 0.0032329559326171875
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
