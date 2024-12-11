@@ -120,6 +120,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 966
 - **Timing**: 0.0032329559326171875
 
+### Day 11: Plutonian Pebbles
+#### Part 1
+- **Approach**: Solved by reconstructing the array each step, by running through the old and appending to a Python list the new values.
+- **Answer**: 203953
+- **Timing**: 0.13311481475830078
+#### Part 2
+- **Approach**: Solved using Counter to keep track of the counts of each number, since the order doesn't actually matter, and then create a new Counter with the updates in the numbers.
+- **Answer**: 242090118578155
+- **Timing**: 0.08633589744567871
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
