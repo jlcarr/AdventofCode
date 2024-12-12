@@ -130,6 +130,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 242090118578155
 - **Timing**: 0.08633589744567871
 
+### Day 12: Garden Groups
+#### Part 1
+- **Approach**: Solved using DFS. Make a set of all plot coordinates to search, and find regions with the search and at each step check adjacent for either next plot to search or boundaries, so as to compute the perimeter, as well as the area.
+- **Answer**: 1489582
+- **Timing**: 0.0237119197845459
+#### Part 2
+- **Approach**: Solved using Shapely. We can perform the DFS on each region as in Part 1, then we can construct the squares for each plot as polygons, union them into the region, simplify the geometry to remove collinear edges, and then Shapely gives us the exterior and interior polygons for free: counting up the number of vertices, which is also the number of sides, finishes off the problem.
+- **Answer**: 914966
+- **Timing**: 0.9407110214233398
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
