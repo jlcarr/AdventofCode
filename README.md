@@ -140,6 +140,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 914966
 - **Timing**: 0.9407110214233398
 
+### Day 13: Claw Contraption
+#### Part 1
+- **Approach**: Solved using regex to parse the unput, then brute-force over the presses for a and b, since we're told they'll be less than 100.
+- **Answer**: 37297
+- **Timing**: 0.20290398597717285
+#### Part 2
+- **Approach**: Solved using z3 to perform the integer optimization problem and also check for unsatisfiable cases. However we can solve this problem with linear algebra for the 2 variable system and the the solutions are integer. The case of being collinear results in the linear diophantine equation solveable by Bezout's identity. However, the collinear case never actually appeared in the input, and so only simple linear algebra was needed!
+- **Answer**: 83197086729371
+- **Timing**: 0.3672292232513428
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
