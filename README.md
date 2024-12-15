@@ -150,6 +150,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 83197086729371
 - **Timing**: 0.3672292232513428
 
+### Day 14: Restroom Redoubt
+#### Part 1
+- **Approach**: Solved using modular arithmetic to instantly compute the final position of each robot and then using some quick comparators to sum up the quadrants.
+- **Answer**: 230435667
+- **Timing**: 0.0011458396911621094
+#### Part 2
+- **Approach**: Solved using numpy and Pillow to make pngs of the different steps and look for patterns. Noticed vertical oddities every 33+101a and horizontal oddities every 87+103b. Used z3 to solve the Bezout's identity. A more general way perhaps to find the Easter egg would have been to use a convolutional filter to check for when an image have large contiguous blocks and robots instead of scattered.
+- **Answer**: 7709
+- **Timing**: 0.15439486503601074
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
