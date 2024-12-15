@@ -160,6 +160,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 7709
 - **Timing**: 0.15439486503601074
 
+### Day 15: Warehouse Woes
+#### Part 1
+- **Approach**: Solved by performing the simulation, when a box is pushed we keep checking forward for if there is a wall or empty space at the end: a line of boxes moving forward is the same as the empty space being filled with a box and the robot replacing the immediate one it pushed.
+- **Answer**: 1414416
+- **Timing**: 0.0052378177642822266
+#### Part 2
+- **Approach**: Solved using a BFS search with a queue for the parts of boxes moved, and creating a stack of moves to be made should the move succeed, the ordering allows for moved box parts to move to their new position, and leave empty places behind them, possible filled by boxes behind them entering.
+- **Answer**: 1386070
+- **Timing**: 0.00898599624633789
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
