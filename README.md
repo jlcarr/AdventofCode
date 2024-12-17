@@ -170,6 +170,17 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1386070
 - **Timing**: 0.00898599624633789
 
+### Day 16: Reindeer Maze
+#### Part 1
+- **Approach**: Solved using Dijkstra's algorithms, where the state is position and direction, using heapq for the priority queue, and because all distances are increasing we can never find new shorter paths to tiles.
+- **Answer**: 83432
+- **Timing**: 0.05066990852355957
+#### Part 2
+- **Approach**: Solved using same start as Part 1, but also keep track of for each tile and direction the other tiles and directions that could proceed it under optimality. From here we just perform a search backwards from the final position (considering only optimal directions) and keeping track of unique tiles visited on the search backwards. I tried NetworkX but it stalled, likely due to too many possible optimal paths.
+83432
+- **Answer**: 467
+- **Timing**: 0.1625211238861084
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
