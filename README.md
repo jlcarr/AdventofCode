@@ -181,6 +181,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 467
 - **Timing**: 0.1625211238861084
 
+### Day 17: Chronospatial Computer
+#### Part 1
+- **Approach**: Solved by simply implementing the instruction set and keeping track of the outputs to join and return.
+- **Answer**: 7,3,1,3,6,3,6,0,2
+- **Timing**: 0.00011014938354492188
+#### Part 2
+- **Approach**: Solved by analyzing the code to see it ends with a jump to make a loop in which 1 value is output each time. Therefore we know the number of times the loop must execute is the same as the length of the program itself, and each output must be equal to the instruction corresponding to the loop number. We can therefore put these constraints in z3, using 64 bit BitVecs for each register's value at each loop and instruction's place.
+- **Answer**: 105843716614554
+- **Timing**: 0.12071514129638672
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
