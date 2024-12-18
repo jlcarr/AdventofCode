@@ -191,6 +191,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 105843716614554
 - **Timing**: 0.12071514129638672
 
+### Day 18: RAM Run
+#### Part 1
+- **Approach**: Solved using Dijkstra's algorithm with heapq, only keeping track of coordinates with the inacccessible in a set.
+- **Answer**: 348
+- **Timing**: 0.009027957916259766
+#### Part 2
+- **Approach**: Solved similar to part 1, but with a loop continually adding to the fallen set and attempting the solve until it was no longer feasible. A better solution would have been to binary search over the fallen list for the breaking point.
+- **Answer**: 54,44
+- **Timing**: 12.261285066604614
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
