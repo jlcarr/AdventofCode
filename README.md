@@ -211,6 +211,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 730121486795169
 - **Timing**: 0.01328420639038086
 
+### Day 20: Race Condition
+#### Part 1
+- **Approach**: Solved using a cache of distances from each position, computed via extra simple search, then for each positon check each direction for a possible cheat and if the cheat results in a better time using the difference in cached distances.
+- **Answer**: 1411
+- **Timing**: 0.018002033233642578
+#### Part 2
+- **Approach**: Solved similarly to part 1, except also searching over all cheats of up to 20 Manhattan distance. Note that cheats always take the shortest path between their start and end.
+- **Answer**: 1010263
+- **Timing**: 2.7709739208221436
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
