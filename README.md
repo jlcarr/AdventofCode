@@ -201,6 +201,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 54,44
 - **Timing**: 12.261285066604614
 
+### Day 19: Linen Layout
+#### Part 1
+- **Approach**: Solved using a trie to quickly tell if a subsequence is amongst the available, and dynamic programming over if each possible position in the target towel is reachable.
+- **Answer**: 365
+- **Timing**: 0.012324094772338867
+#### Part 2
+- **Approach**: Solved the same way as part 1, but storing the count of ways to get to each position in the target towel.
+- **Answer**: 730121486795169
+- **Timing**: 0.01328420639038086
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
