@@ -241,6 +241,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1600
 - **Timing**: 2.9546518325805664
 
+### Day 23: LAN Party
+#### Part 1
+- **Approach**: Solved using using NetworkX to build the graph and itertools to iterate over all pairs of neighbors for each node, and keep the valid sorted triples in a set for counting. My original slower approach was to iterate over all combinations of 3 nodes and check if they all have edges.
+- **Answer**: 1411
+- **Timing**: 0.004380941390991211
+#### Part 2
+- **Approach**: Solved using NetworkX to find all maximal cliques and then we can take the max clique. While the problem is NP-Complete, for this particular graph, NetworkX's algorithm runs quickly.
+- **Answer**: aq,bn,ch,dt,gu,ow,pk,qy,tv,us,yx,zg,zu
+- **Timing**: 0.010807037353515625
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
