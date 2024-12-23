@@ -231,6 +231,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 281212077733592
 - **Timing**: 0.0007340908050537109
 
+### Day 22: Monkey Market
+#### Part 1
+- **Approach**: Solved by just directly implementing the rules. Might be faster using bitwise operations.
+- **Answer**: 14119253575
+- **Timing**: 0.921875
+#### Part 2
+- **Approach**: Solved using a deque for the queue of differences, and a dictionary to sum the values for each pattern, and a set to not repeat the pattern within each buyer's pattern.
+- **Answer**: 1600
+- **Timing**: 2.9546518325805664
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
