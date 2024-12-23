@@ -221,6 +221,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1010263
 - **Timing**: 2.7709739208221436
 
+### Day 21: Keypad Conundrum
+#### Part 1
+- **Approach**: Solved using Dijkstra's algorithm with heapq, and careful keeping track of and updating of the states of all 3 robots.
+- **Answer**: 231564
+- **Timing**: 0.0077250003814697266
+#### Part 2
+- **Approach**: Solved using dynamic programming over pairs of instructions and robot outputting each. Essentially each pair of adjacent instruction that need to be output receives the same instructions from the next robot in depth. We can therefore setup the problem recursively and cache the costs (as well as the instructions themselves for debugging). The state space is too large for Dijkstra's.
+- **Answer**: 281212077733592
+- **Timing**: 0.0007340908050537109
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
