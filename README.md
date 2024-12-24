@@ -251,6 +251,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: aq,bn,ch,dt,gu,ow,pk,qy,tv,us,yx,zg,zu
 - **Timing**: 0.010807037353515625
 
+### Day 24: Crossed Wires
+#### Part 1
+- **Approach**: Solved using functools cache to construct a recursive function looking upstream from each wire's values through the inputs of its logic gate, which are accessed quickly via a dictionary.
+- **Answer**: 55730288838374
+- **Timing**: 0.0007958412170410156
+#### Part 2
+- **Approach**: Solved using GraphViz to draw the graph and ensure it is a simple full adder, then run through the full adder cells by their x and y inputs, saving the carry from before, and constructing the iternal values, and checking they are feeding forward into the correct places. At any mismatches I inspected the GraphViz to see the correct. I also implemented automated corrections for the types needed for my input. After a correction is made rerun the search to get further down the chain of adder cells.
+- **Answer**: fvw,grf,mdb,nwq,wpq,z18,z22,z36
+- **Timing**: 0.0008208751678466797
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
