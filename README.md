@@ -261,6 +261,14 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: fvw,grf,mdb,nwq,wpq,z18,z22,z36
 - **Timing**: 0.0008208751678466797
 
+### Day 25: Code Chronicle
+#### Part 1
+- **Approach**: Solved using numpy to construct to construct the arrays of the schematics and sum the first row to determine if we have a key or a lock, and sum along the vertical axis to get the heights. Finally just brute force check all pairs of keys and locks by summing their column heights and checking no columns exceed the the size.
+- **Answer**: 3116
+- **Timing**: 0.2469959259033203
+#### Part 2
+- **Approach**: Click a link.
+
 ## 2023 Solutions
 ### Day 1: Trebuchet?!
 #### Part 1
