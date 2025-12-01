@@ -19,6 +19,19 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - I'm also adding a series of useful links to topics useful to each problem at the end.
 - On occasion I will consider different approaches to the problem: the one I end of using remains in the ```AoC[year]_day[day]_[part].py```, while the discarded/incomplete solution will be in another file.
 
+## 2025 Solutions
+### Day 0:
+
+### Day 1: Secret Entrance
+#### Part 1
+- **Approach**: Solved by converting the L rotations to negative, using an accumulator and modular arithmetic.
+- **Answer**: 1135
+- **Timing**: 0.0018618106842041016
+#### Part 2
+- **Approach**: Solved by splitting into the L and R cases to handle remainders passing zero separately.
+- **Answer**: 6558
+- **Timing**: 0.005753040313720703
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
