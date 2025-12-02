@@ -20,8 +20,6 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - On occasion I will consider different approaches to the problem: the one I end of using remains in the ```AoC[year]_day[day]_[part].py```, while the discarded/incomplete solution will be in another file.
 
 ## 2025 Solutions
-### Day 0:
-
 ### Day 1: Secret Entrance
 #### Part 1
 - **Approach**: Solved by converting the L rotations to negative, using an accumulator and modular arithmetic.
@@ -31,6 +29,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Approach**: Solved by splitting into the L and R cases to handle remainders passing zero separately.
 - **Answer**: 6558
 - **Timing**: 0.005753040313720703
+
+### Day 2: Gift Shop
+#### Part 1
+- **Approach**: Solved by going through numbers until concatenating them surpasses the largest range, thereby only searching the square root's worth. Checked all ranges linearly.
+- **Answer**: 34826702005
+- **Timing**: 0.17187881469726562
+#### Part 2
+- **Approach**: Solved similarly to part 1, but with a loop over multiples of concatenation, but to the maximum of the largest range end's length. Used a set to avoid double-counting.
+- **Answer**: 43287141963
+- **Timing**: 0.2026820182800293
 
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
