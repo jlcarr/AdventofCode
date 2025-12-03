@@ -40,6 +40,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 43287141963
 - **Timing**: 0.2026820182800293
 
+### Day 3: Lobby
+#### Part 1
+- **Approach**: Solved using max and index to find the first occurrence of the maximum digit, then if it's not at the end, take the largest digit in the array sliced to the right, otherwise take the largest digit in the rest of the array.
+- **Answer**: 17408
+- **Timing**: 0.003242969512939453
+#### Part 2
+- **Approach**: Solved by realizing we must at least have room for the remaining digits at the end, so for each digit search the slice of candidate positions, which excludes anything before the previous digit was found, and anything after its last possible postion leaving room for the remaining digits.
+- **Answer**: 172740584266849
+- **Timing**: 0.008435964584350586
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
