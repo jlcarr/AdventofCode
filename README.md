@@ -50,6 +50,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 172740584266849
 - **Timing**: 0.008435964584350586
 
+### Day 4: Printing Department
+#### Part 1
+- **Approach**: Solved using numpy with scipy.ndimage.generic_filter to make an array with indicators where rolls would be removed, which can be summed for the final answer.
+- **Answer**: 1587
+- **Timing**: 0.0922398567199707
+#### Part 2
+- **Approach**: Solved similarly to part 1, using numpy with scipy.ndimage.generic_filter to perform the operations on the grid. Sum of array differences is used to check for when the state stops changing, and similarly get the difference with the original array.
+- **Answer**: 8946
+- **Timing**: 3.7367920875549316
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
