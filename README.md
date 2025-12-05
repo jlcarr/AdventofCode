@@ -60,6 +60,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 8946
 - **Timing**: 3.7367920875549316
 
+### Day 5: Cafeteria
+#### Part 1
+- **Approach**: Solved by sorting the ranges to run through them, and the ranges in inverse order to make a stack, which we can pop from while they are below the currently considered ranges upper bound, counting them if they are within the range. The sort guarantees everything works.
+- **Answer**: 896
+- **Timing**: 0.0009658336639404297
+#### Part 2
+- **Approach**: Solved with a sort again, this time keeping track of the last considered upper bound, so we have the cases of the next range being engulfed, extending the range, or being completely outside it.
+- **Answer**: 346240317247002
+- **Timing**: 0.0011379718780517578
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
