@@ -70,6 +70,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 346240317247002
 - **Timing**: 0.0011379718780517578
 
+### Day 6: Trash Compactor
+#### Part 1
+- **Approach**: Solved using Python's split for the nice parsing, and then just some careful looping/indexing.
+- **Answer**: 6172481852142
+- **Timing**: 0.0013709068298339844
+#### Part 2
+- **Approach**: Solved by keeping the whole table and iterating down the column, accumulating operands, and performing the operations when new ops are found. Careful of off-by-1 errors!
+- **Answer**: 10188206723429
+- **Timing**: 0.009884834289550781
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
