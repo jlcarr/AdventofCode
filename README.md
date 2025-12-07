@@ -80,6 +80,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 10188206723429
 - **Timing**: 0.009884834289550781
 
+### Day 7: Laboratories
+#### Part 1
+- **Approach**: Solved uby simply running through the rows, keeping track of beam positions in the previous row, and filling the new row.
+- **Answer**: 1660
+- **Timing**: 0.0018057823181152344
+#### Part 2
+- **Approach**: Solved similarly to part 1, but aggregating counts of paths into the new row.
+- **Answer**: 305999729392659
+- **Timing**: 0.005956888198852539
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1

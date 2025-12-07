@@ -1,5 +1,5 @@
 """
-Solution to Advent of Code 2025 day 1 part 2
+Solution to Advent of Code 2025 day 1 part 1
 
 Solved by converting the L rotations to negative, using an accumulator and modular arithmetic.
 """
