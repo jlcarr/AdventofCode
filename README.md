@@ -90,6 +90,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 305999729392659
 - **Timing**: 0.005956888198852539
 
+### Day 8: Playground
+#### Part 1
+- **Approach**: Solved by finding distances between all pairs and sorting, then using the union-find datastructure to join the circuit sets, and finally a Counter on the union-finde's indices to finish finding the sizes of the circuits.
+- **Answer**: 117000
+- **Timing**: 0.9151108264923096
+#### Part 2
+- **Approach**: Solved similarly to part 1, but using the logic of Prim's algorithm to notice we can run through trying all pairs, and simply only use the last pair that isn't part of the same set.
+- **Answer**: 8368033065
+- **Timing**: 1.2851381301879883
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
