@@ -100,6 +100,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 8368033065
 - **Timing**: 1.2851381301879883
 
+### Day 9: Movie Theater
+#### Part 1
+- **Approach**: Solved using brute forcing all pairs.
+- **Answer**: 4758121828
+- **Timing**: 0.04760098457336426
+#### Part 2
+- **Approach**: Solved using Shapely to contruct the main polygon and then check containment over all pairs of points for the rectangles.
+- **Answer**: 1577956170
+- **Timing**: 83.71837711334229
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
