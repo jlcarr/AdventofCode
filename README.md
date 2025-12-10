@@ -110,6 +110,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 1577956170
 - **Timing**: 83.71837711334229
 
+### Day 10: Factory
+#### Part 1
+- **Approach**: Solved by turning the problem from binary to integers and finding the subset which XORs to the target by brute force.
+- **Answer**: 514
+- **Timing**: 0.007426738739013672
+#### Part 2
+- **Approach**: Solved using z3, from which it was pretty easy to set up the constraints of the presses summing to respective joltages.
+- **Answer**: 21824
+- **Timing**: 0.9023900032043457
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
