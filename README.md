@@ -120,6 +120,16 @@ In the spirit of Project Euler's request to make solutions posting to be educati
 - **Answer**: 21824
 - **Timing**: 0.9023900032043457
 
+### Day 11: Reactor
+#### Part 1
+- **Approach**: Solved using recursion with memoization to traverse the graph DFS counting up the number of paths.
+- **Answer**: 555
+- **Timing**: 0.0007090568542480469
+#### Part 2
+- **Approach**: Solved similarly to part 1, but keeping track of target destinations, and just summing the 2 ordering cases.
+- **Answer**: 502447498690860
+- **Timing**: 0.006426811218261719
+
 ## 2024 Solutions
 ### Day 1: Historian Hysteria
 #### Part 1
